@@ -35,7 +35,9 @@ go live, not a confirmed rollout for Orderful specifically.
    mechanism, someone periodically reviews real outcomes and decides what to
    change — a scoring weight, a signal's tier, a proof point, a threading
    approach — then edits those files directly and pushes. This is a git
-   commit and push, nothing more exotic than that.
+   commit and push, nothing more exotic than that. Updates go out on a
+   regular cadence, and ops notifies the team (a Slack post is enough) that
+   there's something new to pull.
 
 ## Rep-level setup (done by each person)
 
@@ -60,14 +62,9 @@ referral — and run the identical research → score → draft chain on demand.
 The scheduled pipeline automates the noticing; it doesn't replace a rep's
 own judgment about who's worth a look.
 
-Before each session, the rep pulls latest (`git pull`) so they're working
-off the current playbook, not a stale one.
-
-## What isn't built yet
-
-Enforcement that reps pull latest before a session. Nothing
-technical stops someone from working off an outdated clone — this needs
-either a habit, a reminder, or a lightweight check, not solved here.
+Reps pull latest (`git pull`) when ops posts that there's an update —
+per step 6 above, not something a rep has to remember to check for on their
+own.
 
 ## Open gaps
 
