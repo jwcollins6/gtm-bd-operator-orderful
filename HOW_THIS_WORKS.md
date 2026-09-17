@@ -159,19 +159,32 @@ assigned on your team — by region, by segment, by named-account list, round
 robin, or something else. Without that, a Hot account has nowhere real to
 land.
 
-**4. Real customer and deal data.** The ICP and personas in this repo are
-built from your public case studies and marketing logos — evidence of the
-*kind* of company you sell to, not your actual customer list, segmentation,
-or deal sizes. `onboarding/company-understanding-inventory.md`'s "Current
-customers" section says this explicitly. Real CRM data would either confirm
-or correct what's currently a reasonable guess.
+**4. Real customer and deal data — and a real ICP confirmation pass against
+it.** The ICP and personas in this repo are built from your public case
+studies and marketing logos — evidence of the *kind* of company you sell to,
+not your actual customer list, segmentation, or deal sizes.
+`onboarding/company-understanding-inventory.md`'s "Current customers" section
+says this explicitly. Two things specifically:
+- **CRM/deal records**, to confirm or correct the size, industry, and
+  trading-partner-count bands this repo currently guesses at in
+  `onboarding/icp-template.md`.
+- **Sales and customer call transcripts** (Gong, Chorus, or equivalent, if
+  you record calls), to confirm the actual pain points, objections, and
+  language real prospects and customers use — a materially better source
+  than case-study copy, which is written for marketing, not to reveal what
+  actually came up in the room. This is also the most direct way to check
+  whether `onboarding/persona-template.md`'s three personas (and their
+  paired second contacts) are the real buying committee, or whether this
+  repo's guess at who's involved is missing someone.
 
-**5. Sales team input, directly.** Two things specifically only your team
-can answer: what signals your reps have personally noticed correlate with
-real opportunities (`onboarding/signal-inventory-template.md`'s "client's
-own experience" section is empty by design, waiting on this), and what
-objections and messaging have actually worked or failed in real deals —
-your own experience, not inferred from case-study copy.
+**5. Sales team input, directly — distinct from #4's recorded data.**
+Transcripts and CRM records show what already happened; this is about tacit
+knowledge that usually never gets recorded anywhere: what your reps have
+personally noticed correlates with a real opportunity before it shows up in
+any system (`onboarding/signal-inventory-template.md`'s "client's own
+experience" section is empty by design, waiting on exactly this), and their
+own read on why deals actually won or lost. Best gathered by talking to them
+directly, not by mining call data alone.
 
 **6. A real answer on the compliance-signal verification method.** The
 retailer-compliance-change signal is strong in concept but its "is this
