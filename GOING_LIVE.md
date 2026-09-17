@@ -23,8 +23,7 @@ confirmed rollout.
    record of who's working which account — so two reps don't accidentally
    duplicate the same outreach.
 4. **Turn on the automated signal-detection → research → scoring → draft
-   pipeline, scheduled to run continuously (daily or weekly).** This is the
-   core of why the system is useful, not a later or optional step — see
+   pipeline, scheduled to run based on parameters set by the team** — see
    `skills/signal-detection-skill.md`. It depends on step 1 being done
    first, since detected candidates and their briefs need a real place to
    land.
