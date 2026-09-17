@@ -31,7 +31,7 @@ outside Orderful's supported scope) — **kill switch**: score goes to
 max of 6.
 
 **Intent score** — from `signal-inventory-template.md`'s tiers, whichever
-signal(s) actually fired on this account:
+signal(s) fired on this account:
 
 - Tier 1 signal fired (new retailer launch, compliance-policy change, EDI job
   posting, matching complaint pattern) → **3 points**
@@ -86,7 +86,7 @@ outreach shown.
 - **Every weight and threshold here is a guess**, not derived from any real
   won/lost deal data — there isn't any yet. This needs the eval loop
   (`../docs/eval/eval-loop.md`) running against real outcomes before any of it
-  should actually gate what a rep sees or when.
+  should gate what a rep sees or when.
 - Whether "Warm (fast-track)" is a real, useful distinction or just adds
   confusion — untested.
 - The 90-day disqualify cooldown is arbitrary, not derived from Orderful's

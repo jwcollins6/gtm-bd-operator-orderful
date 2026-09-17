@@ -2,7 +2,7 @@
 
 **Status: research-derived concept, not client-verified.** Built 2026-09-17
 from case-study buyer titles on orderful.com plus general reasoning about how
-each company type would actually experience an EDI buying decision. No sales
+each company type would experience an EDI buying decision. No sales
 team input, no customer interviews. Treat as a starting hypothesis.
 
 ## Personas
@@ -17,7 +17,7 @@ team input, no customer interviews. Treat as a starting hypothesis.
   wholesale or big-box retail for the first time or expanding it (Caraway,
   Liquid Death, Oura, Hu Kitchen-type companies).
 - **What they care about / priorities**: Not missing the retailer's go-live
-  date — EDI compliance is a hard gate on actually shipping to a new retail
+  date — EDI compliance is a hard gate on shipping to a new retail
   partner. Not having to hire a dedicated EDI specialist just to handle one or
   two retail relationships. Avoiding chargebacks that eat margin on a channel
   they're trying to prove out.
@@ -94,9 +94,9 @@ role:
 
 - **Ops/Systems lead at a consumer brand** pairs with a **Finance/Controller
   or a level-up Operations executive** (VP Operations, COO at this company
-  size) — the ops lead is the hands-on champion who'd actually implement
+  size) — the ops lead is the hands-on champion who'd implement
   this; the second thread is whoever feels chargeback/compliance cost
-  exposure and would need to approve spend. At a genuinely lean company —
+  exposure and would need to approve spend. At a lean company —
   `../onboarding/icp-template.md` itself notes headcount is a weak filter
   here, since case-study companies span newer DTC brands to established
   industrials — this might even reach a founder still close to spend
@@ -109,7 +109,7 @@ role:
 - **Owner/executive at a smaller logistics company** is unusual in that the
   primary contact is already the top of the org — here the natural second
   thread runs the other direction, to the **ops manager or dispatcher** who
-  actually uses EDI day to day and would surface implementation friction the
+  uses EDI day to day and would surface implementation friction the
   owner wouldn't otherwise see.
 
 **How the two threads differ in practice:** same account, same signal, but
@@ -125,7 +125,7 @@ All three personas are inferred from a small set of public case-study titles
 team input — the real confirmation step. Specifically unconfirmed:
 - Whether these three are the actual segments Orderful's sales team targets,
   or just the ones with the best-looking public case studies.
-- Real objection patterns and what actually overcomes them in a live deal.
+- Real objection patterns and what overcomes them in a live deal.
 - Whether a fourth persona exists for the "SaaS & Tech Platforms" vertical
   (an engineering/product buyer embedding EDI via API) — the site lists this
   vertical but no case study with a named buyer title was found to build a

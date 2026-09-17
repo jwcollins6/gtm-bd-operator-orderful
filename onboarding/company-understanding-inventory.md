@@ -24,7 +24,7 @@ verified account of "who's already bought" or deal-size patterns:
   America
 - **Fulfillment / tech:** ShipBob
 
-Named buyer titles from their own case studies (a proxy for who actually owns
+Named buyer titles from their own case studies (a proxy for who owns
 the relationship, not a verified persona list): Business Applications Manager
 (Liquid Death), President of Integrated Logistics (NFI), EDI Team Leader (KBX),
 IT Manager (Grosfillex), President (Heartland Logistics Group).
@@ -90,7 +90,7 @@ self-service, no-EDI-expertise-required tier (Pixel) for trading partners too
 small to justify their own EDI investment; transparent published pricing
 across three of four tiers, unusual for the category.
 
-## What they actually sell / positioning / pains solved / buyer personas
+## What they sell / positioning / pains solved / buyer personas
 
 **What they sell:** A unified EDI trading platform with three product lines —
 Mosaic (API-based, ERP-integrated EDI with AI-assisted mapping), Pixel (web-
@@ -149,7 +149,7 @@ finding set. Specifically missing, and not fillable by more public research:
   Enterprise) maps to which target segment in practice, and real deal-size
   ranges.
 - Whether "SaaS & Tech Platforms" (an Orderful vertical on their own site) is
-  actually a priority target for their outbound motion, or just one of six
+  a priority target for their outbound motion, or just one of six
   verticals listed for coverage.
 
 This document should be revisited (or rebuilt from scratch with real input)

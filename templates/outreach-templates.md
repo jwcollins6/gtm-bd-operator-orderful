@@ -2,7 +2,7 @@
 
 **Status: research-derived concept, not client-verified.** Built 2026-09-17.
 This is the reusable asset outbound stage 9 (`../docs/process/outbound-pipeline.md`)
-actually draws from — not one-off examples written per company, but a small
+draws from — not one-off examples written per company, but a small
 library of templates keyed by **which persona** (`../onboarding/persona-template.md`)
 and **which signal** (`../onboarding/signal-inventory-template.md`) fired, with
 variables filled in per account from that account's research brief
@@ -140,7 +140,7 @@ headcount, not IT features.
 - None of these four templates have been used, tested, or seen a single real
   reply — they're a starting structure built from the same public case-study
   language used throughout this repo's onboarding docs, not proven copy.
-- Which proof point actually lands best per persona is a guess; real A/B
+- Which proof point lands best per persona is a guess; real A/B
   results (once anything sends) should override the pairings above.
 - No template exists yet for the "SaaS & Tech Platforms" vertical or its
   persona, since `../onboarding/persona-template.md` flagged that persona as

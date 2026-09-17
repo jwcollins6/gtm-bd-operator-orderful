@@ -85,7 +85,7 @@ parallel, not sequentially:
   higher-signal touches in practice; see the True Classic worked example for
   what that looks like applied.
 
-Which second contact to actually thread for a given account (name, title)
+Which second contact to thread for a given account (name, title)
 is answered per-account in `../templates/account-research-brief.md`'s
 persona-mapping section, which now asks for both contacts on Hot accounts —
 not something this file decides in the abstract.
@@ -94,7 +94,7 @@ not something this file decides in the abstract.
 
 - This cadence (5 touches, 2 weeks, this channel mix) is a generic B2B outline
   adapted to this signal's urgency — not derived from anything Orderful's own
-  sales team has found to actually work. Real reply-rate data per step, once
+  sales team has found to work. Real reply-rate data per step, once
   anything sends, should reshape this before it's trusted.
 - Whether LinkedIn is even a channel Orderful's sales team uses today is
   unconfirmed — this assumes it because it's standard practice, not because

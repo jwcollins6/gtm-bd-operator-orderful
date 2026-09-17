@@ -9,7 +9,7 @@ Orderful, not a finding.
 
 ## How to build this
 
-Not a fixed checklist — these are the usual inputs, but which ones actually
+Not a fixed checklist — these are the usual inputs, but which ones
 apply, and in what order, can differ by client.
 
 1. **Review of current customers** — **not run.** Only public marketing
@@ -87,7 +87,7 @@ apply, and in what order, can differ by client.
   leads) — the actual highest-value input, entirely missing until there's a
   real conversation with Orderful.
 - Real deal-size / segment thresholds — which trading-partner-count bands
-  Orderful's own sales team actually prioritizes.
+  Orderful's own sales team prioritizes.
 - Whether SaaS/Tech Platforms and Manufacturing are real outbound priorities
   or just covered verticals — can't tell from the outside.
 - **Competitive scope gap found during research, worth flagging directly:**

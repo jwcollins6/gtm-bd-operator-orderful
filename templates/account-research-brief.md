@@ -19,7 +19,7 @@ templates in `../onboarding/`.
   multi-threading section) — not just one. Don't invent a name to fill the
   slot; an unconfirmed second contact gets noted as an enrichment gap, same
   as the primary.
-- **Prior relationship check** — is this actually new, or have we touched this
+- **Prior relationship check** — is this new, or have we touched this
   account before
 - **Recent public activity** — news, expansion, anything relevant to the signal
 
@@ -48,7 +48,7 @@ informed by `../onboarding/icp-template.md`,
   like a 1-2 partner company, a dozen, or 20+?) — feeds the ICP size/band
   check in `../onboarding/icp-template.md` and hints at which of Orderful's
   four pricing tiers is realistic, without needing an exact number.
-- **Which persona is actually likely to hold this relationship** — see
+- **Which persona is likely to hold this relationship** — see
   `../onboarding/persona-template.md`. A consumer brand vs. a manufacturer vs.
   a smaller logistics company points to a different title to look for in
   enrichment, not just a different message once found.

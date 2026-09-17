@@ -17,7 +17,7 @@ what's still unconfirmed.
 **[`HOW_THIS_WORKS.md`](HOW_THIS_WORKS.md) — read this first.** Plain-
 language explanation of what this does, an AI-vs-human breakdown of who's
 responsible for what, what using it day to day would look like for someone
-on your team, and what it would actually need from Orderful to go from demo
+on your team, and what it would need from Orderful to go from demo
 to real. Doesn't require reading anything else in this repo first.
 
 Everything below is what that explainer is summarizing — useful if you want
@@ -29,12 +29,12 @@ to go deeper on a specific piece.
 - [`company-understanding-inventory.md`](onboarding/company-understanding-inventory.md) — what Orderful sells, positioning, differentiation, company facts
 - [`icp-template.md`](onboarding/icp-template.md) — which companies fit, and why
 - [`persona-template.md`](onboarding/persona-template.md) — who at those companies, paired with a second contact for multi-threading
-- [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) — what "reach out now" actually looks like, tiered by urgency
+- [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) — what "reach out now" looks like, tiered by urgency
 - `tech-stack-audit-template.md`, `storage-decision-worksheet.md` — intentionally blank; see "What this needs from Orderful" in `HOW_THIS_WORKS.md`
 
 **Turning that into action** (`score/`, `templates/`)
 - [`score/scoring-model.md`](score/scoring-model.md) — fit × signal urgency → a Hot/Warm/Nurture/Disqualify tier and a routing action
-- [`score/eval-example.md`](score/eval-example.md) — how the guesses in this repo would actually get corrected over time, with an illustrative example
+- [`score/eval-example.md`](score/eval-example.md) — how the guesses in this repo would get corrected over time, with an illustrative example
 - [`templates/account-research-brief.md`](templates/account-research-brief.md) — the research shape every surfaced account gets
 - [`templates/outreach-templates.md`](templates/outreach-templates.md) — reusable draft messages by persona × signal
 - [`templates/outreach-sequence.md`](templates/outreach-sequence.md) — how those drafts get paced across channels and threaded to two contacts, not one

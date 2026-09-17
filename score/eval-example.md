@@ -7,7 +7,7 @@ specifically for what's been built in this repo: the scoring model, the
 signal inventory, the persona/thread pairings, and the outreach
 templates/sequence. **Every number and outcome below is a made-up
 illustration of the mechanism, not a real campaign result** — nothing in
-this repo has actually been sent to anyone.
+this repo has been sent to anyone.
 
 ## The concept, plainly
 
@@ -19,15 +19,15 @@ the system quietly adjust itself:
 
 1. **A human manually marks outcomes** — per account run through the
    pipeline, someone (John, or eventually someone at Orderful) marks: did
-   this account actually reply, did a meeting get booked, and separately —
-   regardless of reply — was this actually a good account to have surfaced
+   this account reply, did a meeting get booked, and separately —
+   regardless of reply — was this a good account to have surfaced
    at all (the two different questions `eval-loop.md` calls out for
    outbound).
 2. **Findings get surfaced, not auto-applied.** The review produces a set of
    "here's what the data suggests" notes for a human to act on. Nothing in
    `score/scoring-model.md`'s weights or `signal-inventory-template.md`'s
    tiers changes by itself.
-3. **A human decides what to actually change** — bump a signal's tier,
+3. **A human decides what to change** — bump a signal's tier,
    adjust a fit weight, swap a proof point, cut a thread that isn't working
    — and edits those files directly, the same way any of this repo's
    concept docs get revised.
@@ -47,8 +47,8 @@ patterns:
 
 | Signal that fired | Accounts run | Meetings booked | Reviewer's note |
 |---|---|---|---|
-| #1 New retailer launch | 8 | 3 | Strong — real, dated urgency seems to actually convert |
-| #2 Compliance-policy change | 5 | 0 | 2 of the 5 turned out **not to actually be confirmed suppliers of that retailer** — the signal fired on an unverified assumption, not a real trigger |
+| #1 New retailer launch | 8 | 3 | Strong — real, dated urgency seems to convert |
+| #2 Compliance-policy change | 5 | 0 | 2 of the 5 turned out **not to be confirmed suppliers of that retailer** — the signal fired on an unverified assumption, not a real trigger |
 | #4 Displacement complaints | 4 | 1 | Replies came in, but tone read as "just gathering info," not urgent — proof point may be underselling the cost of staying put |
 | #3 EDI job posting | 3 | 1 | Too small a sample to say much yet |
 
@@ -56,7 +56,7 @@ And on threading specifically: **Thread B (the executive/economic-buyer
 thread) got zero replies across all 20 accounts**, while Thread A (the
 primary/champion contact) accounted for all 5 meetings.
 
-## What a human would actually do with this
+## What a human would do with this
 
 Per the eval loop's own rule, none of this changes anything automatically —
 here's what a reviewer would take back to the actual files:
@@ -97,7 +97,7 @@ here's what a reviewer would take back to the actual files:
 
 - All numbers above are invented to illustrate the mechanism — there is no
   real campaign, no real reply, no real meeting behind any of them.
-- What actually counts as "enough volume to trust a pattern" (is 20 accounts
+- What counts as "enough volume to trust a pattern" (is 20 accounts
   enough to act on a 0% Thread B reply rate, or just noise?) is unconfirmed
   and would need real judgment once real numbers exist.
 - Whether Orderful's own team would even want John doing this marking, or

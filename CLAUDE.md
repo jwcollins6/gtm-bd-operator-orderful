@@ -11,17 +11,17 @@ Read `docs/OFFERING_SPEC.md` first, then `docs/DECISIONS.md`. `README.md`'s
 
 ## In a client instance
 
-This file plays a different role depending on where that instance actually is:
+This file plays a different role depending on where that instance is:
 
 **Before onboarding is confirmed** (still draft, gaps open) — this file is just
 a router. Read `onboarding/` directly; each file shows its own evidence and
 open gaps. Don't treat anything as settled just because it's written down —
 check each file's own gap notes first.
 
-**Once onboarding is confirmed** (every open question actually resolved with
+**Once onboarding is confirmed** (every open question resolved with
 the client) — this file becomes the operating brief: the current, consolidated
 ICP, personas, signal tiers, and governance posture, compiled from the
-onboarding files. Meant to be read once per session by whatever's actually
+onboarding files. Meant to be read once per session by whatever's
 doing the work (research, drafting), instead of re-deriving context from six
 separate files every time.
 

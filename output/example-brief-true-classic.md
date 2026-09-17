@@ -84,7 +84,7 @@ who'd approve new vendor spend at this size of company.
 
 **No relationship found.** True Classic does not appear among Orderful's
 public customer logos or case studies (`../onboarding/company-understanding-inventory.md`'s
-"Current customers" section) — genuinely new, as far as public information
+"Current customers" section) — new, as far as public information
 shows. (Contrast with Caraway, which *is* a named Orderful customer and
 shows up in the same kind of Target/Walmart-launch story — used elsewhere in
 this repo as validation that the signal pattern is real, not as a prospect.)
@@ -191,7 +191,7 @@ just repeat the first one on a new channel.
 ### Step 3 — Day 6, Email — angle switch to compliance risk
 
 Per the brief's client-specific priorities, whether Target's Perfect Order
-Program (signal #2) actually applies to True Classic's account is
+Program (signal #2) applies to True Classic's account is
 **unconfirmed** — so this step asks, per `outreach-templates.md`'s rule,
 rather than asserting it as fact the way Template 2 would for a confirmed
 case.
@@ -293,16 +293,16 @@ the Target relationship as something to grow, not just launch.
 Thread B's second touch explicitly offers to redirect to the real operational
 contact — a deliberate hedge, since Thread A's contact is unconfirmed and
 Yahalom, as CEO of a $500M-revenue company, is very plausibly not the person
-who should actually own this conversation day to day.
+who should own this conversation day to day.
 
 ### What this sequence deliberately leaves unresolved
 
 `[Name]` and `[Sender name]` stay unfilled throughout Thread A — no
-enrichment step has actually run to find a real contact at True Classic.
+enrichment step has run to find a real contact at True Classic.
 Step 3's compliance angle stays a question, not a claim, because that fact is
-genuinely unconfirmed per the brief above. Thread B uses Ben Yahalom's real,
+unconfirmed per the brief above. Thread B uses Ben Yahalom's real,
 public name and title (he's on record about this exact partnership) but
-everything about whether he's actually the right person to reach, and how
+everything about whether he's the right person to reach, and how
 he'd react, is unconfirmed — that's exactly why Thread B's own second touch
 offers to redirect rather than assuming he's staying on the thread. None of
 this has been sent; True Classic has not been contacted.

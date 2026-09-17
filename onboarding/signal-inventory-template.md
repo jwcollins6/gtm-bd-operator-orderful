@@ -16,8 +16,7 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    retailer** (Walmart, Target, Kroger, Costco, etc.) — via press release,
    retail trade press (e.g. Retail Dive), or the company's own announcement.
    This is the single most concrete "why now" available: EDI compliance is a
-   hard gate on actually shipping to that retailer, usually on a real
-   deadline. **Directly validated, not just theorized:** Caraway shows up
+   hard gate on shipping to that retailer, usually on a real deadline. **Directly validated, not just theorized:** Caraway shows up
    both as a named Orderful customer (from `company-understanding-inventory.md`)
    and in 2026 retail press for launching in 500+ Walmart stores — the timing
    pattern this signal predicts actually shows up in at least one known
@@ -53,7 +52,7 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    company from "fits the profile" to "has a real, dollar-denominated reason
    to act this month." Step 2 is a per-company verification on a candidate
    you already have a reason to look at, not a bulk discovery exercise — see
-   Open gaps for why that distinction matters and how to actually do step 2.
+   Open gaps for why that distinction matters and how to do step 2.
 3. **Company posts a job listing for an EDI-specific role** — "EDI Analyst,"
    "EDI Coordinator," "EDI/Integration Engineer," "Trading Partner
    Onboarding." A capacity signal: either their current provider isn't
@@ -73,7 +72,7 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    exactly these systems.
 6. **Funding round or M&A activity** for a consumer brand or logistics
    company — predicts rapid trading-partner or channel expansion ahead of
-   when the pain actually hits, an earlier/softer signal than #1.
+   when the pain hits, an earlier/softer signal than #1.
 7. **New distribution center, 3PL relationship, or geographic expansion**
    (especially international, now relevant given Orderful's 2024 EDIFACT
    support) — new trading-partner connections needed as a direct consequence.
@@ -83,8 +82,7 @@ an EDI platform, informed by `company-understanding-inventory.md` and
 **Not available — no client conversation has happened yet.** The closest
 public proxy is Orderful's own blog/sponsored content (signals #2 and #4
 above), which is their stated view via marketing content, not verified
-sales-team experience of what actually correlates with real, closed
-opportunities. That distinction matters and shouldn't get collapsed — a real
+sales-team experience of what correlates with real, closed opportunities. That distinction matters and shouldn't get collapsed — a real
 "client's own experience" pass needs an actual conversation with their
 sales/CRO team.
 
@@ -93,7 +91,7 @@ sales/CRO team.
 **None — open by design.** Per the offering's own discipline (see
 `../docs/OFFERING_SPEC.md`), neither the research list above nor a marketing
 proxy is sufficient on its own; nothing here should be built into detection or
-scoring until Orderful's own team confirms which of these actually predict a
+scoring until Orderful's own team confirms which of these predict a
 real deal, and flags anything real that's missing from this list entirely
 (e.g., something only visible from inside their funnel/CRM).
 
@@ -137,7 +135,7 @@ whole wave of newly-urgent prospects at once, tied to a real dollar figure
   true of other major retailers' sites too, not checked one-by-one yet.
   **What still works:** checking the *candidate company's own* website/press
   for "sells at [retailer]" claims — no such restriction applies to a
-  company's own public materials, and it's actually better evidence anyway
+  company's own public materials, and it's better evidence anyway
   (this is literally how the Caraway↔Walmart connection above was found — via
   Retail Dive covering Caraway, not by looking at walmart.com). A direct
   retailer-site check, if ever needed, has to be a manual step a human does
