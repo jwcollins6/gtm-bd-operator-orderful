@@ -54,7 +54,7 @@ detection skill's search process), not just "empty, built later."
 
 ## Status
 
-Demo built 2026-09-17, not a client engagement. Everything listed above
+Demo built 2026-09-17. Everything listed above
 under Onboarding and Turning that into action is filled in as a
 research-derived concept, not client-verified — each file says so plainly at
 the top and lists its own open gaps. See the parent template's
