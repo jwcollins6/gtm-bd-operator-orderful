@@ -100,6 +100,17 @@ confidence is earned over real results — reached deliberately, not jumped to
 (see `docs/eval/eval-loop.md` and `docs/DECISIONS.md`). Today, draft-only is
 the honest, correct place to start.
 
+Where that leads is a choice, not a fixed outcome, and it's Orderful's
+choice to make, not something this system decides on its own. As more of the
+above graduates past draft-only, the capacity that frees up can go toward
+either of two directions: **the same team covering more** — more accounts
+worked, faster follow-up, nothing falling through the cracks at the current
+headcount — or **fewer people needed for the same coverage**. Both are real,
+legitimate outcomes depending on what Orderful actually wants (growth
+capacity vs. cost efficiency), and on how fast confidence in the system's
+accuracy is actually earned — not something to default into either direction
+without deciding on purpose.
+
 ## How someone on your team would actually use this, day to day
 
 Picture an AE or SDR opening this at the start of their day:
