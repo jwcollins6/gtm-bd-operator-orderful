@@ -10,5 +10,5 @@ rather than something generic here.
 
 This instance holds two exceptions to that: `scoring-model.md` and
 `eval-example.md`, both concept/rubric docs (not code), built to make the
-scoring stage concrete for a pre-engagement demo — see each file's own status
+scoring stage concrete for a demo — see each file's own status
 note.

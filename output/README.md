@@ -10,5 +10,5 @@ decision made per client rather than something generic here.
 
 This instance holds one exception: `example-brief-true-classic.md`, an
 illustrative worked example (not real pipeline output) built to make the
-whole chain concrete for a pre-engagement demo — see that file's own status
+whole chain concrete for a demo — see that file's own status
 note.

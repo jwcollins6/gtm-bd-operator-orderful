@@ -3,8 +3,8 @@
 `HOW_THIS_WORKS.md` explains what this does and why. This doc is the
 mechanical follow-up: the actual steps to set it up and run it, split by who
 does them — ops, once, versus each rep, individually. Like the rest of this
-repo, nothing here has been run for real yet; this is the plan, not a
-confirmed rollout.
+repo, nothing here has been run for real yet; this illustrates how it would
+go live, not a confirmed rollout for Orderful specifically.
 
 ## Org-level setup (done once, by ops/RevOps)
 

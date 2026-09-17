@@ -5,8 +5,9 @@ Newest first. See `DAILY_LOG_PROCESS.md` for the practice this follows.
 ## 2026-09-17
 
 **What happened**: Scaffolded this instance from the `gtm-bd-operator`
-template as a pre-engagement demo for Orderful, to show their CRO (Mike
-Head) ahead of any real conversation — not a live client engagement. Built
+template as a demo applied to Orderful, to show their CRO (Mike Head) a
+system I built — not a pitch to run BD for Orderful, not a live client
+engagement. Built
 out, from public research only (orderful.com, their blog and case studies,
 retailer EDI-compliance research, competitor reviews, retail trade press):
 `onboarding/company-understanding-inventory.md`, `icp-template.md`,
@@ -49,8 +50,8 @@ anything about Orderful.
   intentionally blank — out of scope for a public-research-only pass.
 
 **Still open / next**:
-- No real engagement with Orderful exists yet — the actual next step is a
-  conversation, not more building.
+- No client engagement with Orderful, and none being pursued — this is a
+  capability demo, not a BD pitch.
 - Repo visibility/sharing decision with Mike Head still pending.
 - Everything in this instance is unverified against Orderful's real data —
   see each file's own "Open gaps" section and `HOW_THIS_WORKS.md`'s "What

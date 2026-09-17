@@ -5,8 +5,9 @@ the system in plain terms: what it does, who does what (AI vs.
 human), and what using it day to day would look like for someone on your
 team. Everything it describes is built out as a concept in this repo (see
 `README.md` for the file-by-file map) but has not been run for real —
-nothing has been sent to anyone, and there's no engagement with Orderful yet.
-This exists to make the idea concrete before that conversation happens.
+nothing has been sent to anyone, and there's no client engagement with
+Orderful. This exists to make a system I built concrete, using a real
+company instead of an abstract example.
 
 **Scope note:** everything below treats "Orderful" as one thing to sell —
 one ICP, one set of personas, one signal inventory — even though Orderful

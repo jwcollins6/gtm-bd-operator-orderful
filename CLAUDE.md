@@ -37,9 +37,10 @@ reading it knows which mode it's in before trusting what follows.
 
 ## Status: router.
 
-This is not a live client engagement. It's a demonstration instance built for
-[Orderful](https://www.orderful.com/) to show their CRO (Mike Head) what this
-offering looks like applied to a real company, before any engagement exists.
+This isn't a live client engagement, and it isn't a pitch to run BD for
+Orderful. It's a demonstration instance built to show
+[Orderful](https://www.orderful.com/)'s CRO (Mike Head) what I've built,
+applied to a real company instead of an abstract one.
 
 `onboarding/company-understanding-inventory.md`, `icp-template.md`,
 `persona-template.md`, and `signal-inventory-template.md` are filled in from
@@ -63,5 +64,5 @@ through that entire chain. `HOW_THIS_WORKS.md` is the plain-language summary
 of all of it, written for a reader who won't open the other files —
 read that first if you're orienting to this repo for the first time.
 
-**Do not compile this into an operating brief.** There's no real engagement to
-compile from yet.
+**Do not compile this into an operating brief.** There's no client
+relationship here to compile from.

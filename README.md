@@ -1,16 +1,16 @@
 # gtm-bd-operator-orderful
 
-A **demonstration instance** of [gtm-bd-operator](https://github.com/jwcollins6/gtm-bd-operator)
-— John Collins's front-end business development offering — built to show
-[Orderful](https://www.orderful.com/) (modern EDI platform) what this looks
-like applied to their actual business.
+An AI GTM example, built to show Mike Head (Orderful's CRO) what I've
+built — [gtm-bd-operator](https://github.com/jwcollins6/gtm-bd-operator), a
+front-end business development operator, applied to
+[Orderful](https://www.orderful.com/) (modern EDI platform) to show what it
+looks like against a real business instead of an abstract one.
 
-**This is not a live client engagement.** Orderful has no contract with John
-and hasn't confirmed anything in here. It was built to show their CRO, Mike
-Head, a concrete example ahead of a conversation. Treat every finding as a
-hypothesis pulled from public research, not a verified fact about Orderful's
-business — every file that makes a claim also says where it came from and
-what's still unconfirmed.
+**This isn't a pitch to run BD for Orderful, and it's not a live client
+engagement.** It's a demonstration of a system I built. Treat every finding
+as a hypothesis pulled from public research, not a verified fact about
+Orderful's business — every file that makes a claim also says where it came
+from and what's still unconfirmed.
 
 ## Start here
 
@@ -55,10 +55,10 @@ you want to go deeper on a specific piece.
 
 ## Status
 
-Pre-engagement demo, private repo, built 2026-09-17. Everything listed above
+Demo built 2026-09-17, not a client engagement. Everything listed above
 under Onboarding and Turning that into action is filled in as a
 research-derived concept, not client-verified — each file says so plainly at
 the top and lists its own open gaps. See the parent template's
 [`README.md`](https://github.com/jwcollins6/gtm-bd-operator/blob/main/README.md)
-for what the full offering and onboarding process look like once an
-engagement is real.
+for what the full offering and onboarding process look like when it's built
+for a real client.
