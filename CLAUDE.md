@@ -41,14 +41,18 @@ This is not a live client engagement. It's a demonstration instance built for
 [Orderful](https://www.orderful.com/) to show their CRO (Mike Head) what this
 offering looks like applied to a real company, before any engagement exists.
 
-`onboarding/company-understanding-inventory.md` is filled in from public
-research only (orderful.com, their own case studies, their "Our Story" page) —
-no access to Orderful's actual customers, CRM, inbound funnel, or sales
-messaging. Every finding in it is a hypothesis to validate with Orderful
-directly, not settled fact. `icp-template.md`, `persona-template.md`,
-`signal-inventory-template.md`, `tech-stack-audit-template.md`, and
-`storage-decision-worksheet.md` are still blank — they need a real
-conversation with Orderful, not more public research, to fill in credibly.
+`onboarding/company-understanding-inventory.md`, `icp-template.md`,
+`persona-template.md`, and `signal-inventory-template.md` are filled in from
+public research only (orderful.com, their own case studies and blog, retailer
+EDI-compliance research, competitor reviews, retail trade press) — no access
+to Orderful's actual customers, CRM, inbound funnel, or sales team. Every
+finding across all four is a hypothesis to validate with Orderful directly,
+not settled fact — each file's own "Open gaps" / "Client-verified signals"
+section says exactly what's still missing. `tech-stack-audit-template.md` and
+`storage-decision-worksheet.md` are still blank on purpose — they depend on
+Orderful's actual tools and data access, which public research can't
+substitute for at all (unlike ICP/persona/signals, which can at least start
+from public evidence).
 
 **Do not compile this into an operating brief.** There's no real engagement to
 compile from yet.
