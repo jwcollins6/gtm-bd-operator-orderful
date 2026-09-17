@@ -206,25 +206,22 @@ deciding on purpose rather than defaulting into by accident, since it
 directly changes what #4's ICP confirmation pass above is actually
 confirming — one ICP, or several, one per product.
 
-**6. Sales team input, directly — distinct from #4's recorded data.**
-Transcripts and CRM records show what already happened; this is about tacit
-knowledge that usually never gets recorded anywhere: what your reps have
-personally noticed correlates with a real opportunity before it shows up in
-any system (`onboarding/signal-inventory-template.md`'s "client's own
-experience" section is empty by design, waiting on exactly this), and their
-own read on why deals actually won or lost. Best gathered by talking to them
-directly, not by mining call data alone.
+**6. Signal validation, overall.** Every signal in
+`onboarding/signal-inventory-template.md` is a research-derived hypothesis,
+not something confirmed to actually predict a real opportunity — its
+"Client-verified signals" section is empty by design, waiting on exactly
+this. Two parts to it: talking to your sales team directly (tacit knowledge
+that never gets recorded anywhere — what reps have personally noticed
+correlates with a real opportunity, and their own read on why deals won or
+lost, distinct from #4's recorded transcripts/CRM data), and a specific open
+question for the compliance-policy-change signal — its "is this company
+actually carried by that retailer" check can't be automated against a
+retailer's own site (their terms of use prohibit it), so validating that
+signal also means deciding between a licensed data source (NIQ, Numerator,
+Profitero-type provider) or accepting the narrower "check the candidate's
+own public materials" method this repo uses today.
 
-**7. A real answer on the compliance-signal verification method.** The
-retailer-compliance-change signal is strong in concept but its "is this
-company actually carried by that retailer" check can't be automated against
-a retailer's own site (their terms of use prohibit exactly that — see
-`onboarding/signal-inventory-template.md`'s Open Gaps). Worth a real
-decision: a licensed data source (NIQ, Numerator, Profitero-type provider),
-or accept the narrower "check the candidate's own public materials" method
-this repo currently uses.
-
-**8. A governance sign-off on tone and pace.** Someone needs to own what
+**7. A governance sign-off on tone and pace.** Someone needs to own what
 "good enough to send" means for your brand voice, how fast autonomy should
 graduate from draft-only toward the system sending on its own (see
 `docs/eval/eval-loop.md`), and who actually does the periodic outcome review
