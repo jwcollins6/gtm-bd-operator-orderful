@@ -1,0 +1,24 @@
+# Per-client configuration. Copy to business.yaml for a real client instance.
+# Never put credentials here directly — reference an env var name instead.
+
+client:
+  name: ""              # e.g. "Stack Industrial"
+  contact: ""            # primary point of contact at the client
+  industry: ""
+
+operating_model:
+  operated_by: "john"    # "john" | "client" — who runs this instance day to day
+  training_status: "n/a" # free text, decided per client, see docs/OFFERING_SPEC.md
+
+data_platform:
+  track: ""              # "A" (live-connected to client's real CRM/data tools) | "B" (system of record built here)
+  storage: ""            # only if track B: "existing_crm" | "google_sheets" | "sqlite" | "postgres"
+  notes: ""              # what drove the storage choice (see onboarding/storage-decision-worksheet.md)
+
+autonomy:
+  outbound_send: "draft_only"   # "draft_only" | "agent_sends" — starts draft_only, see docs/eval/eval-loop.md
+  inbound_reply: "draft_only"   # same idea, inbound track — can graduate faster than outbound per the spec
+
+eval:
+  feedback_mode: "manual"       # manual feedback only for now — see docs/eval/eval-loop.md
+  spot_check_cadence: "weekly"  # "weekly" | "ad_hoc" — whatever fits this client

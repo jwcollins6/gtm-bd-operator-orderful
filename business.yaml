@@ -1,0 +1,30 @@
+# Per-client configuration. Never put credentials here directly — reference an env var name instead.
+#
+# STATUS: pre-engagement demo, not a live client. Fields below are either
+# public fact (sourced, see onboarding/company-understanding-inventory.md) or
+# explicitly TBD pending a real conversation with Orderful. Nothing here is
+# fabricated to look more complete than it is.
+
+client:
+  name: "Orderful"
+  contact: "Mike Head, CRO — intended audience for this demo (source: orderful.com/about/our-story). No confirmed engagement or point of contact yet."
+  industry: "Modern EDI / B2B supply-chain integration platform (B2B SaaS)"
+
+operating_model:
+  operated_by: "TBD"     # n/a until an engagement exists
+  training_status: "n/a — pre-engagement demo, no client relationship yet"
+
+data_platform:
+  track: "TBD"            # Track A vs B unknown — depends on Orderful's own CRM/tooling, not researchable publicly. See onboarding/tech-stack-audit-template.md (blank).
+  storage: "TBD"
+  notes: "Orderful is itself an integration/API platform, which may make Track A (live-connected) more viable than for a typical client — but that's a guess, not a finding. Needs a real tech-stack audit."
+
+engagement_note: "No engagement exists. This instance was built 2026-09-17 as a demo to show Orderful's CRO (Mike Head) the offering, ahead of any conversation or contract."
+
+autonomy:
+  outbound_send: "draft_only"   # default per docs/eval/eval-loop.md — not yet a real decision for this client
+  inbound_reply: "draft_only"
+
+eval:
+  feedback_mode: "manual"
+  spot_check_cadence: "TBD"
