@@ -8,6 +8,15 @@ team. Everything it describes is built out as a concept in this repo (see
 nothing has been sent to anyone, and there's no engagement with Orderful yet.
 This exists to make the idea concrete before that conversation happens.
 
+**One scope note before any of the rest of this:** everything below treats
+"Orderful" as one thing to sell — one ICP, one set of personas, one signal
+inventory — even though Orderful actually has several fairly different
+products (Mosaic, Pixel, Labels, managed services) that plausibly sell to
+different-shaped buyers. That's a deliberate simplification to keep a first
+pass concrete, not a claim that one ICP fits all of Orderful. Item 5 under
+"What this needs from Orderful" below covers what deciding to split this by
+product line would actually involve.
+
 ## The one-sentence version
 
 Instead of a rep starting from a blank page and a gut feeling about who to
@@ -181,18 +190,10 @@ says this explicitly. Two things specifically:
   repo's guess at who's involved is missing someone.
 
 **5. A decision on whether this stays product-agnostic, or gets split by
-product line.** Everything in this repo treats "Orderful" as one thing to
-sell — one ICP, one set of personas, one signal inventory. But Orderful
-actually has several fairly different products (Mosaic, Pixel, Labels,
-managed services) that plausibly sell to different-shaped buyers: Pixel's
-self-serve, no-EDI-expertise pitch fits a very different company than
-Mosaic's API/ERP-integrated pitch, which is different again from Managed
-Services' fully-outsourced buyer. This demo deliberately stayed
-product-agnostic to keep a first pass simple — a real build could instead
-run separate ICP/persona/messaging tracks per product line, if that's
-actually closer to how your sales motion works. Worth deciding on purpose
-rather than defaulting into by accident, and it directly changes what #4's
-ICP confirmation pass above is actually confirming — one ICP, or several.
+product line** — covered in the scope note at the top of this doc. Worth
+deciding on purpose rather than defaulting into by accident, since it
+directly changes what #4's ICP confirmation pass above is actually
+confirming — one ICP, or several, one per product.
 
 **6. Sales team input, directly — distinct from #4's recorded data.**
 Transcripts and CRM records show what already happened; this is about tacit
