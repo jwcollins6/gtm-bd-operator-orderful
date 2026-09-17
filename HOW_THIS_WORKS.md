@@ -180,7 +180,21 @@ says this explicitly. Two things specifically:
   paired second contacts) are the real buying committee, or whether this
   repo's guess at who's involved is missing someone.
 
-**5. Sales team input, directly — distinct from #4's recorded data.**
+**5. A decision on whether this stays product-agnostic, or gets split by
+product line.** Everything in this repo treats "Orderful" as one thing to
+sell — one ICP, one set of personas, one signal inventory. But Orderful
+actually has several fairly different products (Mosaic, Pixel, Labels,
+managed services) that plausibly sell to different-shaped buyers: Pixel's
+self-serve, no-EDI-expertise pitch fits a very different company than
+Mosaic's API/ERP-integrated pitch, which is different again from Managed
+Services' fully-outsourced buyer. This demo deliberately stayed
+product-agnostic to keep a first pass simple — a real build could instead
+run separate ICP/persona/messaging tracks per product line, if that's
+actually closer to how your sales motion works. Worth deciding on purpose
+rather than defaulting into by accident, and it directly changes what #4's
+ICP confirmation pass above is actually confirming — one ICP, or several.
+
+**6. Sales team input, directly — distinct from #4's recorded data.**
 Transcripts and CRM records show what already happened; this is about tacit
 knowledge that usually never gets recorded anywhere: what your reps have
 personally noticed correlates with a real opportunity before it shows up in
@@ -189,7 +203,7 @@ experience" section is empty by design, waiting on exactly this), and their
 own read on why deals actually won or lost. Best gathered by talking to them
 directly, not by mining call data alone.
 
-**6. A real answer on the compliance-signal verification method.** The
+**7. A real answer on the compliance-signal verification method.** The
 retailer-compliance-change signal is strong in concept but its "is this
 company actually carried by that retailer" check can't be automated against
 a retailer's own site (their terms of use prohibit exactly that — see
@@ -198,12 +212,12 @@ decision: a licensed data source (NIQ, Numerator, Profitero-type provider),
 or accept the narrower "check the candidate's own public materials" method
 this repo currently uses.
 
-**7. A governance sign-off on tone and pace.** Someone needs to own what
+**8. A governance sign-off on tone and pace.** Someone needs to own what
 "good enough to send" means for your brand voice, how fast autonomy should
 graduate from draft-only toward the system sending on its own (see
 `docs/eval/eval-loop.md`), and who actually does the periodic outcome review
 described above — you, or someone on your team.
 
-**8. A real point of contact.** Everything in this repo exists because it
+**9. A real point of contact.** Everything in this repo exists because it
 was built to reach you before any of the above could be asked directly —
 the actual next step is a conversation, not more concept work.
