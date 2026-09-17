@@ -1,8 +1,8 @@
 # gtm-bd-operator-orderful
 
-An AI GTM example, built to show Mike Head (Orderful's CRO) what I've
-built — [gtm-bd-operator](https://github.com/jwcollins6/gtm-bd-operator), a
-front-end business development operator, applied to
+To show an example of something I've built for GTM AI —
+[gtm-bd-operator](https://github.com/jwcollins6/gtm-bd-operator), a
+front-end business development operator — applied to
 [Orderful](https://www.orderful.com/) (modern EDI platform) to show what it
 looks like against a real business instead of an abstract one.
 
