@@ -7,71 +7,51 @@ like applied to their actual business.
 
 **This is not a live client engagement.** Orderful has no contract with John
 and hasn't confirmed anything in here. It was built to show their CRO, Mike
-Head, a concrete example ahead of a conversation, not to represent a completed
-onboarding. Treat every finding in `onboarding/` as a hypothesis pulled from
-public research, not a verified fact about Orderful's business.
+Head, a concrete example ahead of a conversation. Treat every finding as a
+hypothesis pulled from public research, not a verified fact about Orderful's
+business — every file that makes a claim also says where it came from and
+what's still unconfirmed.
 
 ## Start here
 
-- [`HOW_THIS_WORKS.md`](HOW_THIS_WORKS.md) — **read this first.** Plain-
-  language explanation of what this actually does, an explicit AI-vs-human
-  breakdown of who does what at each stage, and what using it day to day
-  would look like for someone on your team. Doesn't require reading anything
-  else in this repo first.
-- [`CLAUDE.md`](CLAUDE.md) — auto-loaded by Claude Code at the start of every
-  session. Router mode — there's no confirmed engagement to compile into an
-  operating brief.
-- [`onboarding/company-understanding-inventory.md`](onboarding/company-understanding-inventory.md),
-  [`icp-template.md`](onboarding/icp-template.md),
-  [`persona-template.md`](onboarding/persona-template.md), and
-  [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) —
-  the four onboarding files that are filled in, built from Orderful's own
-  public site, blog, and case studies plus independent research into EDI
-  buying triggers (retailer compliance requirements, competitor reviews,
-  retail trade press) as of 2026-09-17. No access to their actual customer
-  list, CRM, inbound funnel, or sales team — those sections are marked as open
-  gaps in each file, not guessed at.
-- [`business.yaml`](business.yaml) — what's publicly knowable about Orderful
-  filled in; everything that depends on an actual conversation (track, storage,
-  autonomy posture) left `TBD`.
-- [`score/scoring-model.md`](score/scoring-model.md) and
-  [`templates/outreach-templates.md`](templates/outreach-templates.md) — a
-  concept for how fit × intent scoring and draft outreach would actually work
-  downstream of the onboarding files, plus
-  [`output/example-brief-true-classic.md`](output/example-brief-true-classic.md),
-  one real, worked example threading a signal through a research brief, a
-  score, and a filled-in draft, end to end.
+**[`HOW_THIS_WORKS.md`](HOW_THIS_WORKS.md) — read this first.** Plain-
+language explanation of what this does, an AI-vs-human breakdown of who's
+responsible for what, what using it day to day would look like for someone
+on your team, and what it would actually need from Orderful to go from demo
+to real. Doesn't require reading anything else in this repo first.
 
-## Why this exists
+Everything below is what that explainer is summarizing — useful if you want
+to go deeper on a specific piece.
 
-To make the offering concrete for a specific prospect rather than pitching it
-in the abstract — showing Orderful's CRO what a real onboarding pass and
-instance for their own company would start to look like, using only what's
-already public about them.
+## What's in here
 
-## Status (2026-09-17)
+**Onboarding — who Orderful should target, and why** (`onboarding/`)
+- [`company-understanding-inventory.md`](onboarding/company-understanding-inventory.md) — what Orderful sells, positioning, differentiation, company facts
+- [`icp-template.md`](onboarding/icp-template.md) — which companies fit, and why
+- [`persona-template.md`](onboarding/persona-template.md) — who at those companies, paired with a second contact for multi-threading
+- [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) — what "reach out now" actually looks like, tiered by urgency
+- `tech-stack-audit-template.md`, `storage-decision-worksheet.md` — intentionally blank; see "What this needs from Orderful" in `HOW_THIS_WORKS.md`
 
-Pre-engagement demo. `onboarding/company-understanding-inventory.md`,
-`icp-template.md`, `persona-template.md`, and `signal-inventory-template.md`
-are filled in as research-derived concepts — notably, the signal inventory's
-top signal (a brand launching at a major retailer) is directly validated
-against a real, named Orderful customer (Caraway's 2026 Walmart launch), not
-just theorized. The concept now runs one full step further downstream:
-`score/scoring-model.md` turns ICP fit + signal tier into a Hot/Warm/Nurture
-tier and a routing action, `templates/outreach-templates.md` turns persona +
-signal into a reusable draft-message template, and
-`templates/outreach-sequence.md` turns a single draft into a paced, multi-
-channel (email/LinkedIn/phone) cadence, and — since a real deal usually
-depends on more than one contact — `onboarding/persona-template.md` now
-pairs each persona with a natural second thread (champion + economic buyer),
-with `output/example-brief-true-classic.md` running a real company (True
-Classic, not an Orderful customer, freshly launched at 460 Target stores)
-through the whole chain as two parallel threads: an unconfirmed primary ops
-contact and a named, real secondary (CEO Ben Yahalom, already on record about
-this exact partnership). `tech-stack-audit-template.md` and
-`storage-decision-worksheet.md` are still blank on purpose — skipped for now,
-since they depend on Orderful's actual tools/data access in a way public
-research can't substitute for at all. See the parent template's
+**Turning that into action** (`score/`, `templates/`)
+- [`score/scoring-model.md`](score/scoring-model.md) — fit × signal urgency → a Hot/Warm/Nurture/Disqualify tier and a routing action
+- [`score/eval-example.md`](score/eval-example.md) — how the guesses in this repo would actually get corrected over time, with an illustrative example
+- [`templates/account-research-brief.md`](templates/account-research-brief.md) — the research shape every surfaced account gets
+- [`templates/outreach-templates.md`](templates/outreach-templates.md) — reusable draft messages by persona × signal
+- [`templates/outreach-sequence.md`](templates/outreach-sequence.md) — how those drafts get paced across channels and threaded to two contacts, not one
+
+**One real company run through the whole chain**
+- [`output/example-brief-true-classic.md`](output/example-brief-true-classic.md) — True Classic (not an Orderful customer, just launched at 460 Target stores): signal → fit check → both contacts mapped → scored Hot → both outreach threads written out day by day
+
+**Config**
+- [`business.yaml`](business.yaml) — what's publicly knowable about Orderful filled in; everything needing an actual conversation left `TBD`
+- [`CLAUDE.md`](CLAUDE.md) — auto-loaded by Claude Code at the start of every session; router mode, since there's no confirmed engagement to compile into an operating brief
+
+## Status
+
+Pre-engagement demo, private repo, built 2026-09-17. Everything listed above
+under Onboarding and Turning that into action is filled in as a
+research-derived concept, not client-verified — each file says so plainly at
+the top and lists its own open gaps. See the parent template's
 [`README.md`](https://github.com/jwcollins6/gtm-bd-operator/blob/main/README.md)
-for what the full offering and onboarding process look like once an engagement
-is real.
+for what the full offering and onboarding process look like once an
+engagement is real.

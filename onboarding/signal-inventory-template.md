@@ -54,12 +54,12 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    to act this month." Step 2 is a per-company verification on a candidate
    you already have a reason to look at, not a bulk discovery exercise — see
    Open gaps for why that distinction matters and how to actually do step 2.
-4. **Company posts a job listing for an EDI-specific role** — "EDI Analyst,"
+3. **Company posts a job listing for an EDI-specific role** — "EDI Analyst,"
    "EDI Coordinator," "EDI/Integration Engineer," "Trading Partner
    Onboarding." A capacity signal: either their current provider isn't
    handling this for them, or in-house EDI work has outgrown their team —
    both are real pain a platform switch or first EDI purchase addresses.
-5. **Public complaints about a current EDI provider matching Orderful's own
+4. **Public complaints about a current EDI provider matching Orderful's own
    stated pain points** — support response delays, custom coding required
    per trading partner, unpredictable per-connection billing, onboarding
    taking weeks. Sourced from G2/Capterra reviews of competitors (SPS
@@ -67,21 +67,21 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    and cross-checked against Orderful's own blog post ["7 Signs You Need a
    New EDI Provider"](https://www.orderful.com/blog/replace-edi-provider) —
    their own public statement of what they believe predicts a switch.
-6. **ERP migration or major systems replatform announced** (NetSuite, SAP,
+5. **ERP migration or major systems replatform announced** (NetSuite, SAP,
    Microsoft Dynamics implementation) — a natural moment to reevaluate
    adjacent integrations like EDI, since Orderful's own connectors target
    exactly these systems.
-7. **Funding round or M&A activity** for a consumer brand or logistics
+6. **Funding round or M&A activity** for a consumer brand or logistics
    company — predicts rapid trading-partner or channel expansion ahead of
    when the pain actually hits, an earlier/softer signal than #1.
-8. **New distribution center, 3PL relationship, or geographic expansion**
+7. **New distribution center, 3PL relationship, or geographic expansion**
    (especially international, now relevant given Orderful's 2024 EDIFACT
    support) — new trading-partner connections needed as a direct consequence.
 
 ## Candidate signals from the client's own experience
 
 **Not available — no client conversation has happened yet.** The closest
-public proxy is Orderful's own blog/sponsored content (signals #2 and #5
+public proxy is Orderful's own blog/sponsored content (signals #2 and #4
 above), which is their stated view via marketing content, not verified
 sales-team experience of what actually correlates with real, closed
 opportunities. That distinction matters and shouldn't get collapsed — a real
@@ -106,13 +106,13 @@ Tentative, pending verification — ranked by how concrete and time-bound the
   - #1 New major-retailer listing/launch announced
   - #2 Retailer tightens/changes its EDI compliance program (macro event —
     generates a batch of targets per occurrence, not one at a time)
-  - #4 EDI-specific job posting
-  - #5 Public complaint pattern matching a real displacement opportunity
+  - #3 EDI-specific job posting
+  - #4 Public complaint pattern matching a real displacement opportunity
 - **Tier 2 (real, worth tracking, less urgent/certain)**
-  - #6 ERP migration/replatform announced
-  - #8 New distribution center / 3PL relationship / geographic expansion
+  - #5 ERP migration/replatform announced
+  - #7 New distribution center / 3PL relationship / geographic expansion
 - **Tier 3 (early/soft — context for prioritization, not a trigger alone)**
-  - #7 Funding round or M&A activity
+  - #6 Funding round or M&A activity
 
 This tiering itself is a guess based on how directly each signal implies an
 active, near-term need — it should be one of the first things Orderful's own

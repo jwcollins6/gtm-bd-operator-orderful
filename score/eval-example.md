@@ -49,8 +49,8 @@ patterns:
 |---|---|---|---|
 | #1 New retailer launch | 8 | 3 | Strong — real, dated urgency seems to actually convert |
 | #2 Compliance-policy change | 5 | 0 | 2 of the 5 turned out **not to actually be confirmed suppliers of that retailer** — the signal fired on an unverified assumption, not a real trigger |
-| #5 Displacement complaints | 4 | 1 | Replies came in, but tone read as "just gathering info," not urgent — proof point may be undersellling the cost of staying put |
-| #4 EDI job posting | 3 | 1 | Too small a sample to say much yet |
+| #4 Displacement complaints | 4 | 1 | Replies came in, but tone read as "just gathering info," not urgent — proof point may be underselling the cost of staying put |
+| #3 EDI job posting | 3 | 1 | Too small a sample to say much yet |
 
 And on threading specifically: **Thread B (the executive/economic-buyer
 thread) got zero replies across all 20 accounts**, while Thread A (the

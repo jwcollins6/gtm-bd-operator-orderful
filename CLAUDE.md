@@ -54,5 +54,14 @@ Orderful's actual tools and data access, which public research can't
 substitute for at all (unlike ICP/persona/signals, which can at least start
 from public evidence).
 
+The concept continues past onboarding into `score/scoring-model.md` (fit ×
+signal → tier), `score/eval-example.md` (how those guesses get corrected over
+time), `templates/account-research-brief.md`, `templates/outreach-templates.md`,
+and `templates/outreach-sequence.md` (draft messages, paced and threaded to
+two contacts). `output/example-brief-true-classic.md` runs one real company
+through that entire chain. `HOW_THIS_WORKS.md` is the plain-language summary
+of all of it, written for a reader who won't open the other files —
+read that first if you're orienting to this repo for the first time.
+
 **Do not compile this into an operating brief.** There's no real engagement to
 compile from yet.

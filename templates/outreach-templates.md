@@ -84,7 +84,7 @@ cares about margin erosion on a channel they're trying to prove out.
 >
 > {{sender_name}}
 
-## Template 3 — IT/EDI technical owner × displacement (signal #5)
+## Template 3 — IT/EDI technical owner × displacement (signal #4)
 
 **When to use:** persona = "IT/EDI technical owner at a manufacturer or
 larger enterprise"; signal = public complaint pattern matching a real
@@ -110,11 +110,11 @@ not a growth pitch.
 >
 > {{sender_name}}
 
-## Template 4 — Owner/executive at smaller logistics co × capacity signal (#4 or #6)
+## Template 4 — Owner/executive at smaller logistics co × capacity signal (#3 or #7)
 
 **When to use:** persona = "Owner/executive buyer at a smaller logistics,
-carrier, or 3PL company"; signal = EDI-specific job posting (#4) or new
-DC/3PL/geographic expansion (#6) — both read as "we're growing faster than
+carrier, or 3PL company"; signal = EDI-specific job posting (#3) or new
+DC/3PL/geographic expansion (#7) — both read as "we're growing faster than
 our current setup handles."
 **Proof point to use:** Heartland Logistics Group's case study ("Zero
 Additional Headcount," 100% growth in client base) or KBX's ("if we're not

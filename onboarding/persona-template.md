@@ -96,9 +96,11 @@ role:
   or a level-up Operations executive** (VP Operations, COO at this company
   size) — the ops lead is the hands-on champion who'd actually implement
   this; the second thread is whoever feels chargeback/compliance cost
-  exposure and would need to approve spend. At a smaller company (under
-  ~200 employees, per `../onboarding/icp-template.md`'s size read), this
-  might even reach a founder — see the True Classic worked example.
+  exposure and would need to approve spend. At a genuinely lean company —
+  `../onboarding/icp-template.md` itself notes headcount is a weak filter
+  here, since case-study companies span newer DTC brands to established
+  industrials — this might even reach a founder still close to spend
+  decisions at this scale. See the True Classic worked example.
 - **IT/EDI technical owner at a manufacturer** pairs with their **manager or
   a Director/VP of Supply Chain/IT** — the technical owner is the champion
   who'd evaluate and push for the switch; the second thread is whoever signs

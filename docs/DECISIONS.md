@@ -68,13 +68,10 @@ as the spec whenever a new decision gets made.
    the onboarding inventories (customer/inbound/messaging/website/differentiation
    analysis, tech-stack audit) giving evidence-based inputs alongside an
    interview, but not fully resolved.
-3. **Stack Industrial specifics** — the real, in-progress client build for Al
-   Baron predates this template's fuller onboarding process; worth revisiting
-   against the fuller inventory once this template is more settled. Separately
-   still open for that instance specifically: whether to connect the ZoomInfo +
-   HubSpot MCP connectors and test a live-connected approach; where lease-
-   expiration data actually comes from; where draft output should land for
-   review; rough scoring weights.
+3. **Earlier client instances built before this template's fuller onboarding
+   process existed** — worth revisiting each against the fuller inventory as
+   the template matures. Specifics for any given client stay in that
+   client's own instance repo, not here.
 
 ## Concrete build items blocked on the above
 

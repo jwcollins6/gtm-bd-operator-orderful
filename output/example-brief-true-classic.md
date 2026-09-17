@@ -134,6 +134,9 @@ actually goes, and whether to keep going if an earlier step gets a reply.
 
 ### Thread A — primary (unconfirmed ops/systems contact)
 
+Full 5-step cadence, starting Day 0 — the hands-on champion pitch: speed and
+not needing to add headcount to handle it.
+
 ### Step 1 — Day 0, Email
 
 This is **Template 1** from

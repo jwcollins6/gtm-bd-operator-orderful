@@ -44,8 +44,7 @@ the scoring model's stacking case — worth pulling the account out of the
 default pace and accelerating, not waiting for day 6 to react to something
 already known.
 
-## Step 2 and step 4 detail (not full email templates, since they're
-shorter/different-channel)
+## Step 2 and step 4 detail (not full email templates, since they're shorter/different-channel)
 
 - **Step 2 (LinkedIn, Day 3):** connection request + one-line note
   referencing the email sent 3 days earlier and one additional stat not used

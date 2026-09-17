@@ -44,7 +44,7 @@ signal(s) actually fired on this account:
 
 ## Combined tier
 
-| | Intent: Low (1) | Intent: Med (2-3) | Intent: High (4+) |
+| | Intent: Low (1) | Intent: Med (2) | Intent: High (3+) |
 |---|---|---|---|
 | **Fit: High (5-6)** | Nurture | Warm | **Hot** |
 | **Fit: Med (3-4)** | Nurture | Warm | Warm (fast-track) |
