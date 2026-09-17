@@ -13,6 +13,11 @@ public research, not a verified fact about Orderful's business.
 
 ## Start here
 
+- [`HOW_THIS_WORKS.md`](HOW_THIS_WORKS.md) — **read this first.** Plain-
+  language explanation of what this actually does, an explicit AI-vs-human
+  breakdown of who does what at each stage, and what using it day to day
+  would look like for someone on your team. Doesn't require reading anything
+  else in this repo first.
 - [`CLAUDE.md`](CLAUDE.md) — auto-loaded by Claude Code at the start of every
   session. Router mode — there's no confirmed engagement to compile into an
   operating brief.
