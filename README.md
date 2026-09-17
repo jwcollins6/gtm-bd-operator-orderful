@@ -55,10 +55,15 @@ just theorized. The concept now runs one full step further downstream:
 `score/scoring-model.md` turns ICP fit + signal tier into a Hot/Warm/Nurture
 tier and a routing action, `templates/outreach-templates.md` turns persona +
 signal into a reusable draft-message template, and
-`output/example-brief-true-classic.md` runs a real company (True Classic,
-not an Orderful customer, freshly launched at 460 Target stores) through the
-whole chain — signal, fit check, persona mapping, score, and a filled-in
-draft — as one worked example. `tech-stack-audit-template.md` and
+`templates/outreach-sequence.md` turns a single draft into a paced, multi-
+channel (email/LinkedIn/phone) cadence, and — since a real deal usually
+depends on more than one contact — `onboarding/persona-template.md` now
+pairs each persona with a natural second thread (champion + economic buyer),
+with `output/example-brief-true-classic.md` running a real company (True
+Classic, not an Orderful customer, freshly launched at 460 Target stores)
+through the whole chain as two parallel threads: an unconfirmed primary ops
+contact and a named, real secondary (CEO Ben Yahalom, already on record about
+this exact partnership). `tech-stack-audit-template.md` and
 `storage-decision-worksheet.md` are still blank on purpose — skipped for now,
 since they depend on Orderful's actual tools/data access in a way public
 research can't substitute for at all. See the parent template's

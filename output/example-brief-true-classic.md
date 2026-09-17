@@ -56,17 +56,29 @@ Against `../onboarding/icp-template.md`:
 
 ## Persona mapping
 
-Maps to **"Ops/Systems lead at a consumer brand entering retail"**
+**Score is Hot (see below), so per `../onboarding/persona-template.md`'s
+multi-threading section, this brief maps two contacts, not one.**
+
+**Primary — "Ops/Systems lead at a consumer brand entering retail"**
 (`../onboarding/persona-template.md`) — the pattern this persona is built
 from (Liquid Death's "Business Applications Manager") is the same shape of
 company as True Classic: a DTC-first consumer brand where an operations/
 supply-chain/business-systems function, not a large dedicated IT department,
-most likely owns retail-partner integration work.
+most likely owns retail-partner integration work. **Named contact:
+unconfirmed.** No specific person identified — would need an actual
+enrichment step (e.g. a LinkedIn search for "Operations," "Supply Chain," or
+"Business Systems" titles at True Classic) that hasn't been run. Not guessed
+at.
 
-**Named contact: unconfirmed.** No specific person identified — would need an
-actual enrichment step (e.g. a LinkedIn search for "Operations," "Supply
-Chain," or "Business Systems" titles at True Classic) that hasn't been run.
-Not guessed at.
+**Secondary — executive sponsor.** At 162 employees against ~$500M revenue,
+True Classic is lean enough that a co-founder is plausibly still close to a
+decision like this, and there's a real, named, public option here: **Ben
+Yahalom, CEO**, who is the same person quoted in press specifically about the
+Target partnership's growth potential (per Company basics/Signal sourcing
+above) — not a guess at who the executive is, an already-public fact. He's
+the natural economic-buyer-side thread per the persona template's pairing
+logic, since the ops lead is the likely champion but probably isn't the one
+who'd approve new vendor spend at this size of company.
 
 ## Prior relationship check
 
@@ -110,10 +122,17 @@ this repo as validation that the signal pattern is real, not as a prospect.)
 
 Score = Hot, so per
 [`../templates/outreach-sequence.md`](../templates/outreach-sequence.md) this
-gets the 5-step, ~2-week Hot cadence — not a single message. Per
-`business.yaml`'s `outbound_send: draft_only`, all 5 steps below are prepared
-in advance as drafts; a human still decides whether and when each one
+gets the 5-step, ~2-week Hot cadence, **run as two parallel threads, not one**
+— per that file's multi-threading section and the Persona mapping above.
+Thread A (the primary, unconfirmed ops contact) runs the full 5 steps
+starting Day 0; Thread B (Ben Yahalom, CEO) runs a shorter 3-touch version
+starting Day 2, offset rather than synchronized so it reads as two people
+independently reaching out, not one coordinated blast. Per `business.yaml`'s
+`outbound_send: draft_only`, every step in both threads is prepared in
+advance as drafts; a human still decides whether and when each one
 actually goes, and whether to keep going if an earlier step gets a reply.
+
+### Thread A — primary (unconfirmed ops/systems contact)
 
 ### Step 1 — Day 0, Email
 
@@ -226,10 +245,61 @@ rather than trailing off unanswered.
 >
 > [Sender name]
 
+### Thread B — secondary (Ben Yahalom, CEO), starting Day 2
+
+Shorter, executive-appropriate cadence per `outreach-sequence.md`'s
+multi-threading note — 3 touches, not 5, and a different angle from Thread A:
+Thread A is the hands-on champion pitch (speed, no headcount needed); Thread
+B is the growth-protection angle, since Yahalom is the one on record framing
+the Target relationship as something to grow, not just launch.
+
+**Step B1 — Day 2, Email**
+
+> **Subject:** Congrats on Target — one thing worth protecting as it scales
+>
+> Hi Ben — congrats on the Target rollout, and on the read that there's room
+> to grow it further. The EDI layer under a partnership like that is usually
+> invisible right up until it isn't — a missed ASN or a barcode issue becomes
+> a chargeback and a strained relationship exactly while you're trying to
+> prove the channel out.
+>
+> We work with brands in True Classic's position (Liquid Death, Caraway) to
+> keep that layer from being the thing that caps how fast a retail
+> partnership can grow. Worth a short call as you're scaling this?
+>
+> [Sender name]
+
+**Step B2 — Day 9, LinkedIn**
+
+> Hi Ben — following up briefly on the note about Target. No pressure to
+> reply if this isn't the right level for you to be looking at day-to-day —
+> happy to connect with whoever owns EDI operationally if that's a better
+> fit.
+
+**Step B3 — Day 16, Email — breakup**
+
+> **Subject:** Will leave this with you
+>
+> Hi Ben — haven't heard back, so I'll stop here. If EDI ever becomes
+> something slowing down the Target relationship (or the next one), feel
+> free to loop in whoever's closest to it on your team — happy to help
+> either way.
+>
+> [Sender name]
+
+Thread B's second touch explicitly offers to redirect to the real operational
+contact — a deliberate hedge, since Thread A's contact is unconfirmed and
+Yahalom, as CEO of a $500M-revenue company, is very plausibly not the person
+who should actually own this conversation day to day.
+
 ### What this sequence deliberately leaves unresolved
 
-Every step keeps `[Name]` and `[Sender name]` unfilled, same as step 1 — no
+`[Name]` and `[Sender name]` stay unfilled throughout Thread A — no
 enrichment step has actually run to find a real contact at True Classic.
 Step 3's compliance angle stays a question, not a claim, because that fact is
-genuinely unconfirmed per the brief above. None of this has been sent; True
-Classic has not been contacted.
+genuinely unconfirmed per the brief above. Thread B uses Ben Yahalom's real,
+public name and title (he's on record about this exact partnership) but
+everything about whether he's actually the right person to reach, and how
+he'd react, is unconfirmed — that's exactly why Thread B's own second touch
+offers to redirect rather than assuming he's staying on the thread. None of
+this has been sent; True Classic has not been contacted.

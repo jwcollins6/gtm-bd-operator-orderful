@@ -83,6 +83,39 @@ team input, no customer interviews. Treat as a starting hypothesis.
   headcount-avoided, client-base growth) over technical detail — matches
   exactly how Orderful's own site presents these customers.
 
+## Multi-threading — the second contact per persona
+
+None of these three personas should be pursued alone once an account scores
+**Hot** (`../score/scoring-model.md`) — a deal that depends on one contact
+replying dies the moment that person goes dark, changes roles, or just isn't
+the actual decision-maker. Each primary persona above pairs with a natural
+second thread — a different function or level, not a duplicate of the same
+role:
+
+- **Ops/Systems lead at a consumer brand** pairs with a **Finance/Controller
+  or a level-up Operations executive** (VP Operations, COO at this company
+  size) — the ops lead is the hands-on champion who'd actually implement
+  this; the second thread is whoever feels chargeback/compliance cost
+  exposure and would need to approve spend. At a smaller company (under
+  ~200 employees, per `../onboarding/icp-template.md`'s size read), this
+  might even reach a founder — see the True Classic worked example.
+- **IT/EDI technical owner at a manufacturer** pairs with their **manager or
+  a Director/VP of Supply Chain/IT** — the technical owner is the champion
+  who'd evaluate and push for the switch; the second thread is whoever signs
+  off on replacing a working (if painful) system, since migration risk is
+  this persona's own stated top objection.
+- **Owner/executive at a smaller logistics company** is unusual in that the
+  primary contact is already the top of the org — here the natural second
+  thread runs the other direction, to the **ops manager or dispatcher** who
+  actually uses EDI day to day and would surface implementation friction the
+  owner wouldn't otherwise see.
+
+**How the two threads differ in practice:** same account, same signal, but
+not the same message — the second contact gets a persona-appropriate angle
+(see `../templates/outreach-templates.md`), not a copy of what the first
+contact received. See `../templates/outreach-sequence.md`'s multi-threading
+section for how the two threads run in parallel over time.
+
 ## Open gaps
 
 All three personas are inferred from a small set of public case-study titles
@@ -95,3 +128,7 @@ team input — the real confirmation step. Specifically unconfirmed:
   (an engineering/product buyer embedding EDI via API) — the site lists this
   vertical but no case study with a named buyer title was found to build a
   persona from.
+- The multi-threading pairings above are reasoned from how B2B buying
+  committees typically split (champion vs. economic buyer), not from any
+  actual Orderful deal — real deals may loop in a third or fourth person
+  (procurement, a CFO) that this doesn't anticipate.

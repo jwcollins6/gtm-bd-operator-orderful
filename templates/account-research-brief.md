@@ -13,7 +13,12 @@ templates in `../onboarding/`.
 - **ICP fit check** — quick pass/fail against `../onboarding/icp-template.md`,
   and why
 - **Persona mapping** — which persona (see `../onboarding/persona-template.md`)
-  this contact/account maps to
+  this contact/account maps to. **For a Hot-scored account
+  (`../score/scoring-model.md`), map both the primary persona and its paired
+  second contact** (per `../onboarding/persona-template.md`'s
+  multi-threading section) — not just one. Don't invent a name to fill the
+  slot; an unconfirmed second contact gets noted as an enrichment gap, same
+  as the primary.
 - **Prior relationship check** — is this actually new, or have we touched this
   account before
 - **Recent public activity** — news, expansion, anything relevant to the signal
