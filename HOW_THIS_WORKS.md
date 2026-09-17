@@ -211,3 +211,6 @@ from #4's recorded transcripts/CRM data.
 graduate from draft-only toward the system sending on its own (see
 `docs/eval/eval-loop.md`), and who does the periodic outcome review
 described above — you, or someone on your team.
+
+For the actual setup steps once these are resolved — split into what ops
+does once versus what each rep does individually — see `GOING_LIVE.md`.

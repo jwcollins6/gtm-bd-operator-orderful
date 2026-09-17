@@ -57,7 +57,7 @@ off the current playbook, not a stale one.
 
 ## What isn't built yet
 
-Enforcement that reps actually pull latest before a session. Nothing
+Enforcement that reps pull latest before a session. Nothing
 technical stops someone from working off an outdated clone — this needs
 either a habit, a reminder, or a lightweight check, not solved here.
 

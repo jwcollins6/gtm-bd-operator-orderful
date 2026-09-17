@@ -1,6 +1,6 @@
 # Signal detection — skill
 
-How to actually find candidate accounts for
+How to find candidate accounts for
 [`../onboarding/signal-inventory-template.md`](../onboarding/signal-inventory-template.md)'s
 signal types — the step before account research
 (`account-research-skill.md`) or scoring (`../score/scoring-model.md`) can
@@ -71,14 +71,12 @@ kick research off for.
 
 ## Running this on a schedule
 
-This is the core of why this system is useful, not a someday add-on: run on
-a recurring schedule (daily or weekly) so the full chain above — detection
-through to a drafted, ready-to-review sequence — runs continuously, and a
-rep's actual first touch is reviewing finished work, not starting research
-themselves. It needs the org-level tool connections (CRM/system of record)
-in place first, since detected candidates and their briefs need a real place
-to land — but once that's true, this should be running on a schedule from
-day one, not treated as optional.
+Runs on a schedule set by the team (daily, weekly, whatever cadence fits) so
+the full chain above — detection through to a drafted, ready-to-review
+sequence — runs on its own, and a rep's first touch is reviewing finished
+work rather than starting research themselves. Needs the org-level tool
+connections (CRM/system of record) in place first, since detected candidates
+and their briefs need a real place to land — see `../GOING_LIVE.md`.
 
 ## What NOT to do
 
@@ -98,7 +96,7 @@ possible.
 
 - None of this has been run — the per-signal search approach above is
   reasoned, not tested against real results.
-- Job board terms of use haven't actually been checked yet for signal #3,
+- Job board terms of use haven't been checked yet for signal #3,
   the way Target's were for signal #2 — flagged as a real open question, not
   assumed clean.
 - Whether Orderful's own team has better sources for any of these (a paid

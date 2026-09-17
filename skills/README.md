@@ -16,5 +16,5 @@ Two exceptions:
 - [`signal-detection-skill.md`](signal-detection-skill.md) — built for this
   Orderful instance specifically (not template-generic, since it's written
   directly against `../onboarding/signal-inventory-template.md`'s seven
-  signals), covering how to actually find candidate accounts before account
+  signals), covering how to find candidate accounts before account
   research runs on them.
