@@ -56,18 +56,23 @@ finished, ready-to-review package. See "What a hit produces" below.
 
 ## What a hit produces
 
-A hit chains straight through the rest of the pipeline automatically:
-`account-research-skill.md`'s process (confirm the signal, company basics,
-ICP fit check, persona mapping, prior-relationship check, recent activity),
-then `../score/scoring-model.md`'s fit × intent scoring, then — for anything
+A hit chains straight through the rest of the pipeline automatically,
+respecting `account-research-skill.md`'s own early-exit logic: confirm the
+signal and check company basics, then run the ICP fit check *first* — if it
+fails, stop there and log why (this is exactly what feeds
+`../score/scoring-model.md`'s Disqualify tier), rather than spending effort
+on persona mapping, a prior-relationship check, and recent-activity research
+for a company that was never going to be a fit. Only a real fit continues
+through the rest of the research process, then scoring, then — for anything
 that scores Warm or Hot — a drafted outreach sequence via
 `../templates/outreach-templates.md` and `../templates/outreach-sequence.md`.
-Nurture and Disqualify accounts get logged per the scoring model's own
-routing, without a draft built for them.
 
-What reaches a human is a finished package — brief, score, and (for Warm/Hot)
-a ready draft sequence — not a bare company name someone has to manually
-kick research off for.
+What reaches a human for a Warm/Hot account is a finished package — brief,
+score, and a ready draft sequence. That's the default flow for signals this
+skill detects on schedule, not the only way in — a rep can just as easily
+point Claude at a specific company they noticed themselves (word of mouth,
+something they saw, a referral) and run the identical chain manually; this
+skill just automates the noticing part.
 
 ## Running this on a schedule
 

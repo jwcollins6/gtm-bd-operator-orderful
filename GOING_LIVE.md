@@ -46,11 +46,19 @@ confirmed rollout.
 
 ## A rep's workflow, day to day
 
-A signal fires on schedule → research, scoring, and (for Warm/Hot accounts)
-a drafted sequence happen automatically, per `skills/signal-detection-skill.md`'s
-chain → the rep opens their queue and reviews the finished brief, score, and
-draft → edits anything that needs a human touch and sends manually, outside
-this repo → logs the outcome in the CRM.
+**The default path:** a signal fires on schedule → research, scoring, and
+(for Warm/Hot accounts) a drafted sequence happen automatically, per
+`skills/signal-detection-skill.md`'s chain, which stops early and logs why
+for anything that fails the ICP fit check rather than fully researching a
+non-fit → the rep opens their queue and reviews the finished brief, score,
+and draft → edits anything that needs a human touch and sends manually,
+outside this repo → logs the outcome in the CRM.
+
+**The manual path, just as valid:** a rep can point Claude at a specific
+company they noticed themselves — word of mouth, something they saw, a
+referral — and run the identical research → score → draft chain on demand.
+The scheduled pipeline automates the noticing; it doesn't replace a rep's
+own judgment about who's worth a look.
 
 Before each session, the rep pulls latest (`git pull`) so they're working
 off the current playbook, not a stale one.
