@@ -229,7 +229,3 @@ this repo currently uses.
 graduate from draft-only toward the system sending on its own (see
 `docs/eval/eval-loop.md`), and who actually does the periodic outcome review
 described above — you, or someone on your team.
-
-**9. A real point of contact.** Everything in this repo exists because it
-was built to reach you before any of the above could be asked directly —
-the actual next step is a conversation, not more concept work.
