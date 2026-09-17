@@ -13,9 +13,9 @@ This exists to make the idea concrete before that conversation happens.
 inventory — even though Orderful actually has several fairly different
 products (Mosaic, Pixel, Labels, managed services) that plausibly sell to
 different-shaped buyers. That's a deliberate simplification to keep a first
-pass concrete, not a claim that one ICP fits all of Orderful. Item 5 under
-"What this needs from Orderful" below covers what deciding to split this by
-product line would actually involve.
+pass concrete, not a claim that one ICP fits all of Orderful. Whether to
+split this by product line instead is a real decision worth making on
+purpose — see item 5 under "What this needs from Orderful" below.
 
 ## The one-sentence version
 
