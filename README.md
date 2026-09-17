@@ -53,6 +53,12 @@ you want to go deeper on a specific piece.
 - [`business.yaml`](business.yaml) — what's publicly knowable about Orderful filled in; everything needing an actual conversation left `TBD`
 - [`CLAUDE.md`](CLAUDE.md) — auto-loaded by Claude Code at the start of every session; router mode, since there's no confirmed engagement to compile into an operating brief
 
+**Not built, but previewed** (`ingest/`, `enrich/`, `orchestrate/`, `tests/`, `workflows/`, `governance/`)
+No real code or client-specific policy exists in any of these yet — each
+one's own `README.md` now says concretely what would go there for Orderful
+specifically (e.g. `ingest/`'s would be the code version of the signal-
+detection skill's search process), not just "empty, built later."
+
 ## Status
 
 Demo built 2026-09-17, not a client engagement. Everything listed above
