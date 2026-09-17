@@ -48,7 +48,9 @@ already known.
 
 - **Step 2 (LinkedIn, Day 3):** connection request + one-line note
   referencing the email sent 3 days earlier and one additional stat not used
-  in step 1, to avoid repeating the exact same pitch on a second channel.
+  in step 1 (from `../onboarding/proof-points.md`, same library the
+  templates draw from), to avoid repeating the exact same pitch on a second
+  channel.
 - **Step 4 (Phone, Day 10):** voicemail script mirrors the email's opening
   hook (the signal), states one proof point verbally, and says a follow-up
   email with a specific link is coming — so the email that follows isn't a

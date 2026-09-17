@@ -151,7 +151,7 @@ account.
 | `{{company_name}}` | True Classic | Company basics |
 | `{{retailer_name}}` | Target | Signal |
 | `{{signal_detail}}` | the 460-store Target rollout, after first testing on Target.com in October | Signal / Recent activity |
-| `{{proof_point}}` | Liquid Death and Caraway, who've used Orderful to onboard new retail partners in days instead of months without adding headcount | `../onboarding/company-understanding-inventory.md` |
+| `{{proof_point}}` | Liquid Death — 80% reduction in time to set up trading partners, "own the keys to the kingdom... not rely on outside parties" | `../onboarding/proof-points.md` |
 | `{{sender_name}}` | *n/a — set at send time* | n/a |
 
 > **Subject:** Congrats on the Target launch — a question on scaling it
@@ -160,10 +160,9 @@ account.
 > Target.com back in October — congrats, that's a real step up.
 >
 > Curious how EDI is holding up as Target scales alongside whatever other
-> wholesale partners True Classic runs today. We work with brands in a
-> similar spot (Liquid Death, Caraway) who've used Orderful to connect once
-> and onboard new retail partners in days instead of months, without adding
-> headcount for it.
+> wholesale partners True Classic runs today. Liquid Death saw an 80%
+> reduction in time to set up trading partners after switching to Orderful
+> — happy to walk through what that could look like for you here.
 >
 > Worth 15 minutes to see if there's a gap between where your EDI setup is
 > today and where Target's volume is about to take it?
@@ -214,21 +213,21 @@ case.
 verbally, flags the email that's about to follow.
 
 > "Hi [Name], this is [Sender name] from Orderful — following up on a couple
-> notes about your Target launch. Brands like Caraway have used us to get
-> new retail partners live in days instead of months. I'll send a quick
-> email right after this with their case study — would love 15 minutes if
-> the timing's right."
+> notes about your Target launch. Brands like Liquid Death have used us to
+> cut the time it takes to stand up a new trading partner by 80%. I'll send
+> a quick email right after this with their case study — would love 15
+> minutes if the timing's right."
 
 **Follow-up email**, sent right after the call attempt:
 
 > **Subject:** Tried you by phone — here's what I meant
 >
-> Hi [Name] — just called and missed you. Wanted to share Caraway's story
-> specifically since it's the closest parallel to what True Classic's doing
-> right now — a DTC brand scaling into major retail (Walmart, in their case)
-> and using Orderful to keep EDI from being the bottleneck.
+> Hi [Name] — just called and missed you. Wanted to share Liquid Death's
+> story specifically, since it's a similar shape to what True Classic's
+> doing right now — a DTC brand scaling into wider retail distribution and
+> using Orderful to keep EDI from being the bottleneck.
 >
-> [link to Caraway case study]
+> [link to Liquid Death case study](https://www.orderful.com/resources/case-studies/liquid-death)
 >
 > Open to 15 minutes whenever works.
 >
@@ -266,9 +265,10 @@ the Target relationship as something to grow, not just launch.
 > a chargeback and a strained relationship exactly while you're trying to
 > prove the channel out.
 >
-> We work with brands in True Classic's position (Liquid Death, Caraway) to
-> keep that layer from being the thing that caps how fast a retail
-> partnership can grow. Worth a short call as you're scaling this?
+> We work with brands in True Classic's position — Liquid Death cut their
+> time to stand up a new trading partner by 80% after switching — to keep
+> that layer from being the thing that caps how fast a retail partnership
+> can grow. Worth a short call as you're scaling this?
 >
 > [Sender name]
 
