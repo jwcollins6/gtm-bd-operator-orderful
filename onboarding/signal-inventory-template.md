@@ -44,16 +44,16 @@ an EDI platform, informed by `company-understanding-inventory.md` and
    2026"](https://www.retaildive.com/spons/why-retailers-are-making-edi-compliance-non-negotiable-for-vendors-in-2026/827304/)
    — real evidence their own team already treats a retailer's compliance-
    policy change as a buying moment, not just a plausible-sounding theory.
-   **Detection approach is genuinely different from the rest of this list**:
-   not found one company at a time — it starts from monitoring retailer-side
-   compliance-manual updates and trade press (Retail Dive, SupplierWiki) for
-   the policy change itself, then crosses that against a list of the
-   retailer's known suppliers (built from press releases, trade-show
-   exhibitor lists, LinkedIn, or public supplier directories) to generate a
-   whole batch of high-confidence, urgently-timed targets from one event,
-   rather than discovering them individually. That supplier-list-building
-   step is a real operational cost this signal specifically requires — see
-   Open gaps below.
+   **Detection approach is a two-step funnel, not one lookup:** (1) monitor
+   trade press (Retail Dive, SupplierWiki) and retailer compliance-manual
+   updates for the policy change itself — a one-time event per retailer, easy
+   to catch; (2) for companies *already in the pipeline* from other signals or
+   ICP matching, check whether that specific company is actually carried by
+   the retailer in question — and if it fires, this signal converts that
+   company from "fits the profile" to "has a real, dollar-denominated reason
+   to act this month." Step 2 is a per-company verification on a candidate
+   you already have a reason to look at, not a bulk discovery exercise — see
+   Open gaps for why that distinction matters and how to actually do step 2.
 4. **Company posts a job listing for an EDI-specific role** — "EDI Analyst,"
    "EDI Coordinator," "EDI/Integration Engineer," "Trading Partner
    Onboarding." A capacity signal: either their current provider isn't
@@ -124,13 +124,24 @@ whole wave of newly-urgent prospects at once, tied to a real dollar figure
 
 ## Open gaps
 
-- **Signal #2's real cost is building and maintaining retailer→supplier
-  lists**, not spotting the policy change itself (that part's just trade-press
-  monitoring). Knowing "Target changed its compliance program" is useless for
-  outbound without a reasonably current list of who supplies Target — that
-  list doesn't exist yet and would need real work (press releases, trade-show
-  exhibitor data, LinkedIn, public supplier directories) to build per retailer,
-  and it decays over time as supplier relationships change.
+- **Signal #2's "is this company actually carried by the retailer" check
+  cannot be done by having an agent browse the retailer's own site —
+  confirmed directly against Target's terms of use, not assumed.** Target's
+  terms explicitly distinguish a human using "generally publicly available
+  browsers" (fine) from an "agent" acting "on your behalf," and state that any
+  unauthorized agentic tool "may not be used to access, log into, scrape,
+  query, or otherwise interact with or gather data from the Site under any
+  circumstances" — no exception for a single, occasional lookup. That rules
+  out exactly the "have the agent glance at target.com" approach this signal
+  would naturally reach for, at any volume, not just at scraper scale. Likely
+  true of other major retailers' sites too, not checked one-by-one yet.
+  **What still works:** checking the *candidate company's own* website/press
+  for "sells at [retailer]" claims — no such restriction applies to a
+  company's own public materials, and it's actually better evidence anyway
+  (this is literally how the Caraway↔Walmart connection above was found — via
+  Retail Dive covering Caraway, not by looking at walmart.com). A direct
+  retailer-site check, if ever needed, has to be a manual step a human does
+  themselves — not something this system automates.
 - Whether this document's asserted facts (Target's Perfect Order Program
   terms, the specific fine amounts) hold up under closer scrutiny than a web
   search — worth a direct check against Target's actual current vendor
