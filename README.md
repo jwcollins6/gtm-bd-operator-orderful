@@ -29,6 +29,13 @@ public research, not a verified fact about Orderful's business.
 - [`business.yaml`](business.yaml) — what's publicly knowable about Orderful
   filled in; everything that depends on an actual conversation (track, storage,
   autonomy posture) left `TBD`.
+- [`score/scoring-model.md`](score/scoring-model.md) and
+  [`templates/outreach-templates.md`](templates/outreach-templates.md) — a
+  concept for how fit × intent scoring and draft outreach would actually work
+  downstream of the onboarding files, plus
+  [`output/example-brief-true-classic.md`](output/example-brief-true-classic.md),
+  one real, worked example threading a signal through a research brief, a
+  score, and a filled-in draft, end to end.
 
 ## Why this exists
 
@@ -44,7 +51,14 @@ Pre-engagement demo. `onboarding/company-understanding-inventory.md`,
 are filled in as research-derived concepts — notably, the signal inventory's
 top signal (a brand launching at a major retailer) is directly validated
 against a real, named Orderful customer (Caraway's 2026 Walmart launch), not
-just theorized. `tech-stack-audit-template.md` and
+just theorized. The concept now runs one full step further downstream:
+`score/scoring-model.md` turns ICP fit + signal tier into a Hot/Warm/Nurture
+tier and a routing action, `templates/outreach-templates.md` turns persona +
+signal into a reusable draft-message template, and
+`output/example-brief-true-classic.md` runs a real company (True Classic,
+not an Orderful customer, freshly launched at 460 Target stores) through the
+whole chain — signal, fit check, persona mapping, score, and a filled-in
+draft — as one worked example. `tech-stack-audit-template.md` and
 `storage-decision-worksheet.md` are still blank on purpose — skipped for now,
 since they depend on Orderful's actual tools/data access in a way public
 research can't substitute for at all. See the parent template's
