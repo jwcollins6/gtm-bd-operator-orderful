@@ -6,12 +6,6 @@ front-end business development operator, applied to
 [Orderful](https://www.orderful.com/) (modern EDI platform) to show what it
 looks like against a real business instead of an abstract one.
 
-**This isn't a pitch to run BD for Orderful, and it's not a live client
-engagement.** It's a demonstration of a system I built. Treat every finding
-as a hypothesis pulled from public research, not a verified fact about
-Orderful's business — every file that makes a claim also says where it came
-from and what's still unconfirmed.
-
 ## Start here
 
 **[`HOW_THIS_WORKS.md`](HOW_THIS_WORKS.md) — read this first.** Plain-
