@@ -99,8 +99,6 @@ possible.
 
 ## Open gaps
 
-- None of this has been run — the per-signal search approach above is
-  reasoned, not tested against real results.
 - Job board terms of use haven't been checked yet for signal #3,
   the way Target's were for signal #2 — flagged as a real open question, not
   assumed clean.

@@ -95,8 +95,6 @@ here's what a reviewer would take back to the actual files:
 
 ## Open gaps
 
-- All numbers above are invented to illustrate the mechanism — there is no
-  real campaign, no real reply, no real meeting behind any of them.
 - What counts as "enough volume to trust a pattern" (is 20 accounts
   enough to act on a 0% Thread B reply rate, or just noise?) is unconfirmed
   and would need real judgment once real numbers exist.

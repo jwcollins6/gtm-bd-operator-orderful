@@ -137,9 +137,6 @@ headcount, not IT features.
 
 ## Open gaps
 
-- None of these four templates have been used, tested, or seen a single real
-  reply — they're a starting structure built from the same public case-study
-  language used throughout this repo's onboarding docs, not proven copy.
 - Which proof point lands best per persona is a guess; real A/B
   results (once anything sends) should override the pairings above.
 - No template exists yet for the "SaaS & Tech Platforms" vertical or its
