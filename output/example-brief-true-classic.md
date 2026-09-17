@@ -106,14 +106,22 @@ this repo as validation that the signal pattern is real, not as a prospect.)
 - **Intent: Tier 1 signal fired = 3 points (High)**
 - **Combined tier: Hot**
 
-## Resulting draft outreach
+## Resulting outreach sequence
+
+Score = Hot, so per
+[`../templates/outreach-sequence.md`](../templates/outreach-sequence.md) this
+gets the 5-step, ~2-week Hot cadence — not a single message. Per
+`business.yaml`'s `outbound_send: draft_only`, all 5 steps below are prepared
+in advance as drafts; a human still decides whether and when each one
+actually goes, and whether to keep going if an earlier step gets a reply.
+
+### Step 1 — Day 0, Email
 
 This is **Template 1** from
 [`../templates/outreach-templates.md`](../templates/outreach-templates.md)
 (consumer brand ops lead × new retailer launch) with its variables filled in
 from the confirmed facts above — not a bespoke message written just for this
-account. Per `business.yaml`'s `outbound_send: draft_only`, this is a draft
-for human review and sending, not something sent automatically.
+account.
 
 | Variable | Value used | Source |
 |---|---|---|
@@ -145,3 +153,83 @@ left as `[Name]` / `[Sender name]` rather than invented — per
 `outreach-templates.md`'s own rule, an unconfirmed variable doesn't get
 guessed at just to make the draft read as more finished than the research
 actually is.
+
+### Step 2 — Day 3, LinkedIn
+
+Connection request + short note. Uses a different proof point than step 1
+(the network-size stat, not the case-study names) so the second touch doesn't
+just repeat the first one on a new channel.
+
+> Hi [Name] — sent a note on the Target launch a few days ago, figured I'd
+> connect here too. One more data point in case it's useful: Orderful's
+> network already covers 10,000+ trading partners, so a lot of new
+> connections end up being "join what's already there" rather than building
+> from scratch. Would love to hear how the rollout's going.
+
+### Step 3 — Day 6, Email — angle switch to compliance risk
+
+Per the brief's client-specific priorities, whether Target's Perfect Order
+Program (signal #2) actually applies to True Classic's account is
+**unconfirmed** — so this step asks, per `outreach-templates.md`'s rule,
+rather than asserting it as fact the way Template 2 would for a confirmed
+case.
+
+> **Subject:** Quick compliance question on the Target side
+>
+> Hi [Name] — following up with a different angle: Target's rolled out
+> stricter automated compliance checks recently (ASN accuracy, barcode
+> scanning) that apply per-carton, not just at onboarding. Not sure if
+> that's already live on your account or not, but if it is, it's worth
+> knowing before it shows up as a deduction rather than after.
+>
+> Happy to help you check either way — no pitch attached to that specifically.
+>
+> [Sender name]
+
+### Step 4 — Day 10, Phone + follow-up email
+
+**Voicemail (if no answer):** mirrors the original hook, adds one proof point
+verbally, flags the email that's about to follow.
+
+> "Hi [Name], this is [Sender name] from Orderful — following up on a couple
+> notes about your Target launch. Brands like Caraway have used us to get
+> new retail partners live in days instead of months. I'll send a quick
+> email right after this with their case study — would love 15 minutes if
+> the timing's right."
+
+**Follow-up email**, sent right after the call attempt:
+
+> **Subject:** Tried you by phone — here's what I meant
+>
+> Hi [Name] — just called and missed you. Wanted to share Caraway's story
+> specifically since it's the closest parallel to what True Classic's doing
+> right now — a DTC brand scaling into major retail (Walmart, in their case)
+> and using Orderful to keep EDI from being the bottleneck.
+>
+> [link to Caraway case study]
+>
+> Open to 15 minutes whenever works.
+>
+> [Sender name]
+
+### Step 5 — Day 14, Email — breakup
+
+Low-pressure exit, per the sequence template's design — closes the loop
+rather than trailing off unanswered.
+
+> **Subject:** Will stop here
+>
+> Hi [Name] — haven't been able to connect, so I'll stop following up for
+> now. If EDI becomes a real pain point as the Target rollout scales (or if
+> the compliance question from a few emails back turns out to matter), feel
+> free to reach out directly — happy to help whenever it's useful.
+>
+> [Sender name]
+
+### What this sequence deliberately leaves unresolved
+
+Every step keeps `[Name]` and `[Sender name]` unfilled, same as step 1 — no
+enrichment step has actually run to find a real contact at True Classic.
+Step 3's compliance angle stays a question, not a claim, because that fact is
+genuinely unconfirmed per the brief above. None of this has been sent; True
+Classic has not been contacted.
