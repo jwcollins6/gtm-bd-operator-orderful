@@ -210,16 +210,11 @@ confirming — one ICP, or several, one per product.
 `onboarding/signal-inventory-template.md` is a research-derived hypothesis,
 not something confirmed to actually predict a real opportunity — its
 "Client-verified signals" section is empty by design, waiting on exactly
-this. Two parts to it: talking to your sales team directly (tacit knowledge
-that never gets recorded anywhere — what reps have personally noticed
-correlates with a real opportunity, and their own read on why deals won or
-lost, distinct from #4's recorded transcripts/CRM data), and a specific open
-question for the compliance-policy-change signal — its "is this company
-actually carried by that retailer" check can't be automated against a
-retailer's own site (their terms of use prohibit it), so validating that
-signal also means deciding between a licensed data source (NIQ, Numerator,
-Profitero-type provider) or accepting the narrower "check the candidate's
-own public materials" method this repo uses today.
+this. Best done by talking to the Orderful team directly — not just sales,
+but marketing and leadership too — since this is tacit knowledge that never
+gets recorded anywhere: what people have personally noticed correlates with
+a real opportunity, and their own read on why deals actually won or lost,
+distinct from #4's recorded transcripts/CRM data.
 
 **7. A governance sign-off on tone and pace.** Someone needs to own what
 "good enough to send" means for your brand voice, how fast autonomy should
