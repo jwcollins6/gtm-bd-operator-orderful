@@ -29,18 +29,19 @@ templates is a draft for human review, never sent automatically.
   Kroger, etc.)
 - `{{signal_detail}}` — the specific, sourced fact that fired the signal
   (e.g. "460 Target stores," "the new $0.75/carton ASN accuracy fine")
-- `{{proof_point}}` — a real Orderful case-study quote/stat, chosen to match
-  the persona (see each template below for which one fits)
+- `{{proof_point}}` — a real Orderful case-study quote/stat, pulled from
+  [`../onboarding/proof-points.md`](../onboarding/proof-points.md), the
+  single library every template below draws from rather than each template
+  quoting its own copy
 - `{{sender_name}}`
 
 ## Template 1 — Consumer brand ops lead × new retailer launch (signal #1)
 
 **When to use:** persona = "Ops/Systems lead at a consumer brand entering
 retail"; signal = Tier 1 new major-retailer launch.
-**Proof point to use:** Liquid Death's case study ("own the keys to the
-kingdom," 80% reduction in time to set up trading partners) — matches this
-persona's stated priority of not depending on an outside party they can't see
-into.
+**Proof point to use:** Liquid Death (`../onboarding/proof-points.md`) —
+matches this persona's stated priority of not depending on an outside party
+they can't see into.
 
 > **Subject:** Congrats on the {{retailer_name}} launch — a question on
 > scaling it
@@ -65,9 +66,11 @@ into.
 change (e.g. Target's Perfect Order Program), confirmed to apply to this
 account (see the stacking check in `account-research-brief.md`'s
 client-specific priorities).
-**Proof point to use:** a chargeback-reduction stat (e.g. Liquid Death's
-framing, or Orderful's own chargeback-focused blog content) — this persona
-cares about margin erosion on a channel they're trying to prove out.
+**Proof point to use:** Liquid Death (`../onboarding/proof-points.md`) —
+same persona as Template 1, reused here since it's the only proof point in
+the library for this persona; its "own the keys to the kingdom" framing
+still fits a margin/control angle even though the stats aren't chargeback-
+specific.
 
 > **Subject:** {{retailer_name}}'s new compliance rules and {{company_name}}
 >
@@ -90,10 +93,9 @@ cares about margin erosion on a channel they're trying to prove out.
 larger enterprise"; signal = public complaint pattern matching a real
 displacement opportunity (unresponsive support, custom coding per partner,
 unpredictable billing).
-**Proof point to use:** NFI's case study ("we routinely set up new partners
-within less than five days... because so many partners are already in
-Orderful's network") — this persona wants technical credibility and control,
-not a growth pitch.
+**Proof point to use:** NFI, or Grosfillex North America as an alternate
+(`../onboarding/proof-points.md`) — this persona wants technical credibility
+and control, not a growth pitch.
 
 > **Subject:** Faster trading-partner onboarding for {{company_name}}
 >
@@ -116,9 +118,8 @@ not a growth pitch.
 carrier, or 3PL company"; signal = EDI-specific job posting (#3) or new
 DC/3PL/geographic expansion (#7) — both read as "we're growing faster than
 our current setup handles."
-**Proof point to use:** Heartland Logistics Group's case study ("Zero
-Additional Headcount," 100% growth in client base) or KBX's ("if we're not
-moving loads, we're not making money") — this persona thinks in revenue and
+**Proof point to use:** Heartland Logistics Group, or KBX as an alternate
+(`../onboarding/proof-points.md`) — this persona thinks in revenue and
 headcount, not IT features.
 
 > **Subject:** Growing {{company_name}} without growing headcount

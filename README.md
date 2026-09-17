@@ -28,6 +28,7 @@ you want to go deeper on a specific piece.
 - [`icp-template.md`](onboarding/icp-template.md) — which companies fit, and why
 - [`persona-template.md`](onboarding/persona-template.md) — who at those companies, paired with a second contact for multi-threading
 - [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) — what "reach out now" looks like, tiered by urgency
+- [`proof-points.md`](onboarding/proof-points.md) — real Orderful case-study quotes and stats, one library every outreach template draws from
 - `tech-stack-audit-template.md`, `storage-decision-worksheet.md` — intentionally blank; see "What this needs from Orderful" in `HOW_THIS_WORKS.md`
 
 **Turning that into action** (`skills/`, `score/`, `templates/`)
