@@ -129,3 +129,65 @@ what's worth pursuing."
   built from public research as a concept, explicitly flagged everywhere it
   appears in this repo. The next real step is a conversation, not more
   building.
+
+## What this needs from Orderful to go from demo to real
+
+Everything above is a concept proven against one real company using only
+public information. Making it actually run needs specific things from
+Orderful — not vague "let's partner," concrete inputs this system doesn't
+have and can't get on its own:
+
+**1. Access to whatever system of record you actually use.** Which CRM
+(HubSpot, Salesforce, something else), and whether a live connection is
+realistic — this decides whether this is Track A (live-connected, build
+against your real tools) or Track B (a separate system of record gets
+built). Right now `business.yaml`'s `track` field is `TBD` because this is
+genuinely unknown from outside. (`onboarding/tech-stack-audit-template.md`
+and `storage-decision-worksheet.md` are the two onboarding files left
+completely blank in this repo for exactly this reason — they can't be
+guessed at from a website.)
+
+**2. A data enrichment source.** Every persona mapping in this repo — True
+Classic included — says "named contact: unconfirmed" for the same reason:
+there's no ZoomInfo, Clay, Apollo, LinkedIn Sales Navigator, or equivalent
+connected. Without one, this can identify *which company* and *which role*
+to target, but not the actual person to send a message to.
+
+**3. Territory / account-routing rules.** This repo talks about "an AE" or
+"a rep" opening their queue, but doesn't know how accounts actually get
+assigned on your team — by region, by segment, by named-account list, round
+robin, or something else. Without that, a Hot account has nowhere real to
+land.
+
+**4. Real customer and deal data.** The ICP and personas in this repo are
+built from your public case studies and marketing logos — evidence of the
+*kind* of company you sell to, not your actual customer list, segmentation,
+or deal sizes. `onboarding/company-understanding-inventory.md`'s "Current
+customers" section says this explicitly. Real CRM data would either confirm
+or correct what's currently a reasonable guess.
+
+**5. Sales team input, directly.** Two things specifically only your team
+can answer: what signals your reps have personally noticed correlate with
+real opportunities (`onboarding/signal-inventory-template.md`'s "client's
+own experience" section is empty by design, waiting on this), and what
+objections and messaging have actually worked or failed in real deals —
+your own experience, not inferred from case-study copy.
+
+**6. A real answer on the compliance-signal verification method.** The
+retailer-compliance-change signal is strong in concept but its "is this
+company actually carried by that retailer" check can't be automated against
+a retailer's own site (their terms of use prohibit exactly that — see
+`onboarding/signal-inventory-template.md`'s Open Gaps). Worth a real
+decision: a licensed data source (NIQ, Numerator, Profitero-type provider),
+or accept the narrower "check the candidate's own public materials" method
+this repo currently uses.
+
+**7. A governance sign-off on tone and pace.** Someone needs to own what
+"good enough to send" means for your brand voice, how fast autonomy should
+graduate from draft-only toward the system sending on its own (see
+`docs/eval/eval-loop.md`), and who actually does the periodic outcome review
+described above — you, or someone on your team.
+
+**8. A real point of contact.** Everything in this repo exists because it
+was built to reach you before any of the above could be asked directly —
+the actual next step is a conversation, not more concept work.
