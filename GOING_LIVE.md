@@ -15,10 +15,9 @@ go live, not a confirmed rollout for Orderful specifically.
    in real values, never commit credentials directly. Once connected,
    `business.yaml`'s `track` and `storage` fields move from `TBD` to real
    values.
-2. **Set up repo access.** Reps get read-only access to the repo; only ops
-   can edit the shared files (ICP, personas, signals, scoring, templates).
-   This keeps everyone working off the same playbook instead of drifting
-   into their own versions.
+2. **Set up repo access.** Give reps GitHub's Read role — they can clone and
+   pull, not push. Ops keeps Write. Everyone works off the same playbook;
+   nobody can drift into their own version by accident.
 3. **Decide territory/account-routing rules**, using the CRM as the shared
    record of who's working which account — so two reps don't accidentally
    duplicate the same outreach.
@@ -65,15 +64,3 @@ own judgment about who's worth a look.
 Reps pull latest (`git pull`) when ops posts that there's an update —
 per step 6 above, not something a rep has to remember to check for on their
 own.
-
-## Open gaps
-
-- None of this has been run — it's a plan built from how this repo's pieces
-  are designed to connect, not a confirmed rollout.
-- Whether "read-only for reps, write for ops" needs an actual technical
-  enforcement (branch protection, a review requirement) or just a stated
-  norm is unconfirmed — depends on how much Orderful trusts the norm to
-  hold versus wanting it enforced.
-- Real cadence for step 6's playbook review (weekly, ad hoc, tied to a
-  specific meeting) is undecided — same "no fixed cadence" posture as
-  `docs/eval/eval-loop.md` itself.
