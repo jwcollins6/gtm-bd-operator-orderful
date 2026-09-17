@@ -20,8 +20,13 @@ responsible for what, what using it day to day would look like for someone
 on your team, and what it would need from Orderful to go from demo
 to real. Doesn't require reading anything else in this repo first.
 
-Everything below is what that explainer is summarizing — useful if you want
-to go deeper on a specific piece.
+**[`GOING_LIVE.md`](GOING_LIVE.md) — read this second.** The mechanical
+follow-up: actual setup steps, split into what ops does once versus what
+each rep does individually, and a rep's day-to-day workflow once it's
+running.
+
+Everything below is what those two explainers are summarizing — useful if
+you want to go deeper on a specific piece.
 
 ## What's in here
 
@@ -32,7 +37,9 @@ to go deeper on a specific piece.
 - [`signal-inventory-template.md`](onboarding/signal-inventory-template.md) — what "reach out now" looks like, tiered by urgency
 - `tech-stack-audit-template.md`, `storage-decision-worksheet.md` — intentionally blank; see "What this needs from Orderful" in `HOW_THIS_WORKS.md`
 
-**Turning that into action** (`score/`, `templates/`)
+**Turning that into action** (`skills/`, `score/`, `templates/`)
+- [`skills/signal-detection-skill.md`](skills/signal-detection-skill.md) — how each of the 7 signals actually gets found, and how a hit chains straight through to a finished brief, score, and draft
+- [`skills/account-research-skill.md`](skills/account-research-skill.md) — the research process a detected signal chains into
 - [`score/scoring-model.md`](score/scoring-model.md) — fit × signal urgency → a Hot/Warm/Nurture/Disqualify tier and a routing action
 - [`score/eval-example.md`](score/eval-example.md) — how the guesses in this repo would get corrected over time, with an illustrative example
 - [`templates/account-research-brief.md`](templates/account-research-brief.md) — the research shape every surfaced account gets
