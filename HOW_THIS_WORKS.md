@@ -11,9 +11,12 @@ This exists to make the idea concrete before that conversation happens.
 ## The one-sentence version
 
 Instead of a rep starting from a blank page and a gut feeling about who to
-contact, this watches for real, dated reasons a specific company needs EDI
-*right now*, does the research, drafts personalized outreach to more than one
-person at that company, and hands a rep a ready-to-review queue — while a
+contact, this watches for real, dated reasons a specific company's EDI
+situation just became urgent *right now* — whether that's needing EDI for
+the first time, or an existing setup that's about to be tested, break, or
+get more expensive — does the research, drafts personalized outreach to more
+than one person at that company, and hands a rep a ready-to-review queue —
+while a
 human stays in control of every message that actually goes out.
 
 ## How it actually works, end to end
